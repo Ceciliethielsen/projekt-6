@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    display: flex;
+    border:1px solid #753E36;
+    border-width:1px 0;
+    font-family: 'Karla';
+    font-weight: 600;
+    padding: 1.3rem;
+}
+#menu ul{
+    background: none;
+}
+#menu li{
+    display: inline;
+    padding-right: 30px;
+    cursor: pointer;
+    background: none;
+}
+#menu a{
+    display:inline;
+    color: #794A44;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    background: none;
+}
+#menu{
+    display:inline-block;
+    background: none;
+}
+#menu a.active{
+    color: #1E2D63;
+}
