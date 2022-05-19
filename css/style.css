@@ -1,35 +1,177 @@
+/*Gennemgående styleelementer*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1rem;
+}
+/*header*/
+.header{
+    text-align: center;
+    margin: 0;
+}
+#headercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 15rem;
+    height: 7,5rem;
+}
+
+#erhverv{
+    height: 3rem;
+    width: 8rem;
+    border: none;
+
+}
+#privat{
+    height: 3rem;
+    width: 8rem;
+    background-color: #3DCD58;
+    border: none;
+}
+#roundbuttons{
+    padding-top: 0.5rem;
+}
+
+.search{
+    height: 3rem;
+    width: 3rem;
+}
+.profile{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0.5rem;
+}
+
+/*navigationsbar inkl. burgermenu*/
 #menu{
     display: flex;
-    border:1px solid #753E36;
+    border:1px solid #0000;
     border-width:1px 0;
     font-family: 'Karla';
     font-weight: 600;
-    padding: 1.3rem;
-}
-#menu ul{
-    background: none;
+    padding: 0.5rem;
+    flex-direction: column;
 }
 #menu li{
     display: inline;
     padding-right: 30px;
     cursor: pointer;
-    background: none;
 }
 #menu a{
     display:inline;
-    color: #794A44;
+    color: black;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 25px;
-    background: none;
+    font-weight: 400;
+    font-size: 1,56rem;
 }
 #menu{
     display:inline-block;
-    background: none;
 }
 #menu a.active{
-    color: #1E2D63;
+    color: #009530;
+}
+
+@media(max-width:1024px){
+    #menu a{
+        font-size: 20px;
+    }
+}
+@media(max-width:768px){
+     /*burgermenu*/
+    #burgermenu {
+        cursor: pointer;
+        height: 27px;
+        width: 27px;
+        margin: 50px;
+        overflow: visible;
+        position: relative;
+        z-index:2;
+    }
+
+    #burgermenu span,
+    #burgermenu span:before,
+    #burgermenu span:after {
+        background: #009530;
+        display: block;
+        height: 2px;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+    }
+    #burgermenu span:before,
+    #burgermenu span:after {
+        content: "";
+    }
+    #burgermenu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+    }
+    #burgermenu span:before {
+        left: 0px;
+        top: -10px;
+        width: 27px;
+    }
+    #burgermenu span:after {
+        left: 0px;
+        top: 10px;
+        width: 27px;
+    }
+
+    #burgermenu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+    }
+    #burgermenu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+    }
+    #burgermenu.close span:after {
+        top: 0px;
+        left:0;
+        transform: rotate(90deg);
+        opacity:0;
+        width:0;
+    }
+    #menu{
+        z-index:1;
+        min-width:100%;
+        min-height:100%;
+        position: fixed;
+        top:0;
+        height:0;
+        visibility: hidden;
+        opacity: 0;
+        text-align:right;
+        padding-top:20px;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu.overlay{
+        visibility: visible;
+        padding-top:100px;
+        background-color:#fff;
+        opacity: 80%;
+    }
+    #menu li{
+        list-style:none;
+    }
+    #menu a{
+        font-family: 'Karla';
+        display:block;
+        font-size: 15px;
+        margin-bottom:30px;
+        text-decoration:none;
+        font-weight: 600;
+        margin-right: 20px;
+    }
 }
