@@ -215,7 +215,7 @@ h3{
         margin-right: 20px;
     }
     .dropdown:hover .dropdown-content{
-        display: hidden;
+        display: block;
     }
     .dropdown{
         padding-top: 3rem;
