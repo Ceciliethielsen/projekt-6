@@ -23,89 +23,105 @@ h3{
 .logo{
     width: 15rem;
     height: 7,5rem;
+    cursor: pointer;
 }
 
 #erhverv{
     height: 3rem;
     width: 8rem;
     border: none;
+    cursor: pointer;
 }
 #privat{
     height: 3rem;
     width: 8rem;
     background-color: #3DCD58;
     border: none;
-}
-#roundbuttons{
-    padding-top: 0.5rem;
-   margin-left: 10rem;
-}
-
-.search{
-    height: 3rem;
-    width: 3rem;
-}
-.profile{
-    height: 3rem;
-    width: 3rem;
-    padding-left: 0.5rem;
+    cursor: pointer;
 }
 
 /*navigationsbar inkl. burgermenu*/
-#menu{
+.menu {
     display: flex;
-    padding: 0.5rem;
     overflow: hidden;
+    background-color: #fff;
     justify-content: center;
 }
-#menu a{
+  
+.menu a {
     float: center;
     font-size: 1.5rem;
     padding: 14px 16px;
     text-decoration: none;
 }
-.dropdown{
+.menu a.active{
+    color: #009530;
+}
+  
+.dropdown {
     float: center;
     overflow: hidden;
 }
-
-#menu a.active{
-    color: #009530;
-}
-
-.dropdown .btn1{
-    font-size: 1.5rem;
+  
+.dropdown .btn1 {
+    cursor: pointer; 
     border: none;
     outline: none;
     padding: 14px 16px;
-    background-color: #fff;
     margin: 0;
+    font-size: 1.5rem;
+    background-color: inherit;
 }
-.dropdown-content{
+  
+.menu a:hover, .dropdown:hover .btn1, .btn1:focus {
+    font-weight: 600;
+}
+  
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #fff;
     opacity: 80%;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown-content a{
+  
+.dropdown-content a {
     float: none;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    color: black;
 }
-.dropdown-content a:hover{
-    font-weight: 600;
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
-.dropdown:hover .dropdown-content{
+  
+.show {
     display: block;
 }
+  
+#roundbuttons{
+    padding-top: 0.5rem;
+    margin-left: 10rem;
+}
+  
+.search{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.profile{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
 @media(max-width:1024px){
-    #menu a{
+    .menu a{
         font-size: 1.2rem;
     }
     .dropdown .btn1{
@@ -117,22 +133,18 @@ h3{
     }
 }
 @media(max-width:768px){
-     /*burgermenu*/
-     .logo{
+    /*burgermenu*/
+    .logo{
         width: 10rem;
         height: 5rem;
     }
-     #menu{
-         flex-direction: column;
-         text-align: center;
-     }
-     #buttons{
-         display: none;
-     }
-     .header{
-         display: flex;
-         justify-content: space-between;
-     }
+    #buttons{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
     #burgermenu {
         cursor: pointer;
         height: 27px;
@@ -189,26 +201,26 @@ h3{
         opacity:0;
         width:0;
     }
-    #menu{
+    .menu{
         z-index:1;
         min-width:100%;
         min-height:100%;
         position: fixed;
-        top: -150px;
+        top: -100px;
         height:0;
         visibility: hidden;
-        opacity: 0;
-        text-align: center;
         padding-top:20px;
         transition: all 0.3s ease-in-out;
+        flex-direction: column;
+        text-align: center;
     }
-    #menu.overlay{
+    .menu.overlay{
         visibility: visible;
         padding-top:0px;
         background-color:#fff;
         opacity: 80%;
     }
-    #menu a{
+    .menu a{
         display:block;
         font-size: 1.3rem;
         text-decoration:none;
