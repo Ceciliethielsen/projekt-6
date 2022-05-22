@@ -29,7 +29,6 @@ h3{
     height: 3rem;
     width: 8rem;
     border: none;
-
 }
 #privat{
     height: 3rem;
@@ -39,6 +38,7 @@ h3{
 }
 #roundbuttons{
     padding-top: 0.5rem;
+   margin-left: 10rem;
 }
 
 .search{
@@ -81,9 +81,6 @@ h3{
     background-color: #fff;
     margin: 0;
 }
-.menu a:hover, .dropdown:hover .btn1{
-    background-color: #fff;
-}
 .dropdown-content{
     display: none;
     position: absolute;
@@ -104,15 +101,19 @@ h3{
 .dropdown-content a:hover{
     font-weight: 600;
 }
-
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
-
 @media(max-width:1024px){
     #menu a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .dropdown .btn1{
+        font-size: 1.2rem;
+    }
+    #roundbuttons{
+        padding-top: 0rem;
+        margin-left: 2rem;
     }
 }
 @media(max-width:768px){
@@ -193,7 +194,7 @@ h3{
         min-width:100%;
         min-height:100%;
         position: fixed;
-        top:0;
+        top: -150px;
         height:0;
         visibility: hidden;
         opacity: 0;
@@ -213,10 +214,19 @@ h3{
         text-decoration:none;
         margin-right: 20px;
     }
+    .dropdown:hover .dropdown-content{
+        display: hidden;
+    }
+    .dropdown{
+        padding-top: 3rem;
+    }
     .dropdown-content{
         margin-left: 235px;
     }
-    
+    #roundbuttons{
+        padding-top: 3rem;
+        margin-left: 0;
+    }
     
 }
 @media (max-width: 480px){
@@ -224,7 +234,14 @@ h3{
         width: 8rem;
         height: 4rem;
     }
+    .dropdown{
+        padding-top: 2rem;
+    }
     .dropdown-content{
         margin-left: 0px;
+    }
+    #roundbuttons{
+        padding-top: 3rem;
+        margin-left: -0.5rem;
     }
 }
