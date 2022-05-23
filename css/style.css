@@ -386,6 +386,47 @@ footer{
         padding-top: 3rem;
         margin-left: 0;
     }
+
+    footer{
+        height:20rem;
+    }
+
+    .footer .social{
+        font-size: 1rem;
+    }
+
+    .footer .social a{
+        font-size: 1rem;
+    }
+
+    .footer .social a:hover{
+        font-size: 1rem;
+    }
+
+    .footer ul{
+        font-size: 0.5rem;
+    }
+
+    .footer .copyright{
+        font-size: 0.5rem;
+    }
+
+    .copyright a{
+        font-size: 0.5rem;
+    }
+
+    .lk{
+        font-size: 0.5rem;
+    }
+
+    .nyhedsbrev{
+        font-size: 0.5rem;
+    }
+
+    .tilmeld{
+        font-size: 0.5rem;
+        padding:0.1rem;
+    }
     
 }
 @media (max-width: 480px){
