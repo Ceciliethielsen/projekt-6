@@ -3,13 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3DCD58;
 }
 h2{
-    font-size: 2rem;
+    font-size: 1rem;
+    color: #3DCD58;
 }
 h3{
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 /*header*/
 .header{
@@ -120,6 +123,113 @@ h3{
     padding-left: 0.5rem;
     cursor: pointer;
 }
+/*Styleelementer for footeren*/
+footer{
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    display:flex;
+    background-color: #f2f2f2;
+    width:100%;
+    height: 24rem;
+    border-radius: 80% 80% 0 0;  
+    box-sizing: border-box;
+    padding: 60px 0;
+}
+
+.footer .social{
+    text-align:center;
+    padding-bottom: 1.5rem; 
+    color:#61CC62;
+    font-size: 2rem;
+}
+
+.footer .social a{
+    font-size: 2rem;
+    color: inherit;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0 1rem;
+    opacity: 1;
+}
+
+.footer .social a:hover{
+    opacity: 0.8;
+    color: #3e7c3f;
+}
+
+.footer ul{
+    list-style-type:none;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    padding-left: 0rem;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.footer ul li{
+    display:inline-block;
+    margin-left: 1rem;
+}
+
+.footer ul li a:hover{
+    opacity:0.5;
+    color:black;
+}
+
+.footer .copyright{
+    margin-left: 0rem;
+    margin-top: 1rem;
+    text-align: center;
+    color:#707070;
+    font-size: 1rem;
+}
+
+.copyright a{
+    color:#707070;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.copyright a:hover{
+    opacity: 0.5;
+    color:black;
+}
+
+.lk{
+    font-size: 1rem;
+    color:#707070;
+    text-align: center;
+}
+
+.nyhedsbrev{
+    color:#707070;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.tilmeld{
+    display:flex-end;
+    color:black;
+    background-color: #3fa7d3;
+    border:none;
+    width:4rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+
 @media(max-width:1024px){
     .menu a{
         font-size: 1.2rem;
@@ -130,6 +240,46 @@ h3{
     #roundbuttons{
         padding-top: 0rem;
         margin-left: 2rem;
+    }
+
+    footer{
+        height:22rem;
+    }
+
+    .footer .social{
+        font-size: 1.5rem;
+    }
+
+    .footer .social a{
+        font-size: 1.5rem;
+    }
+
+    .footer .social a:hover{
+        font-size: 1.5rem;
+    }
+
+    .footer ul{
+        font-size: 0.8rem;
+    }
+
+    .footer .copyright{
+        font-size: 0.8rem;
+    }
+
+    .copyright a{
+        font-size: 0.8rem;
+    }
+
+    .lk{
+        font-size: 0.8rem;
+    }
+
+    .nyhedsbrev{
+        font-size: 0.8rem;
+    }
+
+    .tilmeld{
+        font-size: 0.8rem;
     }
 }
 @media(max-width:768px){
@@ -239,6 +389,47 @@ h3{
         padding-top: 3rem;
         margin-left: 0;
     }
+
+    footer{
+        height:20rem;
+    }
+
+    .footer .social{
+        font-size: 1rem;
+    }
+
+    .footer .social a{
+        font-size: 1rem;
+    }
+
+    .footer .social a:hover{
+        font-size: 1rem;
+    }
+
+    .footer ul{
+        font-size: 0.5rem;
+    }
+
+    .footer .copyright{
+        font-size: 0.5rem;
+    }
+
+    .copyright a{
+        font-size: 0.5rem;
+    }
+
+    .lk{
+        font-size: 0.5rem;
+    }
+
+    .nyhedsbrev{
+        font-size: 0.5rem;
+    }
+
+    .tilmeld{
+        font-size: 0.5rem;
+        padding:0.1rem;
+    }
     
 }
 @media (max-width: 480px){
@@ -255,5 +446,47 @@ h3{
     #roundbuttons{
         padding-top: 3rem;
         margin-left: -0.5rem;
+    }
+
+    footer{
+        height:18rem;
+    }
+
+    .footer .social{
+        font-size: 0.8rem;
+    }
+
+    .footer .social a{
+        font-size: 0.8rem;
+    }
+
+    .footer .social a:hover{
+        font-size: 0.8rem;
+    }
+
+    .footer ul{
+        font-size: 0.4rem;
+    }
+
+    .footer .copyright{
+        font-size: 0.4rem;
+    }
+
+    .copyright a{
+        font-size: 0.4rem;
+    }
+
+    .lk{
+        font-size: 0.4rem;
+    }
+
+    .nyhedsbrev{
+        font-size: 0.4rem;
+    }
+
+    .tilmeld{
+        font-size: 0.4rem;
+        width:2rem;
+        height: 1rem;
     }
 }

@@ -1,0 +1,10 @@
+.kontaktside{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 10%;
+}
+.kontaktbox{
+    border: hotpink;
+    border-width: 5px;
+}
