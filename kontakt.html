@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Wiser - Kontakt os idag!</title>
-    <script src="/js/main.js" defer></script>
+    <!--<script src="/js/main.js" defer></script>-->
     <script src="/js/kontakt.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kontakt.css">
@@ -68,11 +68,21 @@
         <h1>KONTAKT OS HER</h1>
         <div class="kontaktside">
             <div class="kontaktbox">
-                <h2>Tlf: 88 30 20 00</h2>
-                <h2>E-mail: schneiderelectrics@gmail.com</h2>
-                <h2>Eller kontakt os via kontaktformularen</h2>
+                <p class="info">Du er meget velkommen til enten at kontakte os pr telefon, e-mail eller via kontaktformularen til højre på siden.</p>
+                <p class="info">Tlf: 88 30 20 00</p>
+                <p class="info">E-mail: schneiderelectrics@gmail.com</p>
             </div>
-            <div id="kontaktformular"></div>
+            <div class="kontakt-container">
+                <div class="kontaktformular">
+                    <p id="error"></p>
+                        <input id="name" class="kontakt-input" type="text">
+                        <input id="mail" class="kontakt-input" type="text">
+                        <input id="tlf" class="kontakt-input" type="text">
+                        <input id="emne" class="kontakt-input" type="text">
+                        <input id="besked" class="kontakt-input" type="text">
+                        <button id="send" type="submit" id="submit-form"><h3>Send</h3></button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
