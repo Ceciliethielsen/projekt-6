@@ -44,29 +44,28 @@ h3{
 }
 
 /*navigationsbar inkl. burgermenu*/
-.menu {
+#menu{
     display: flex;
-    overflow: hidden;
     background-color: #fff;
     justify-content: center;
 }
   
-.menu a {
+#menu a{
     float: center;
     font-size: 1.5rem;
     padding: 14px 16px;
     text-decoration: none;
 }
-.menu a.active{
+#menu a.active{
     color: #009530;
 }
   
-.dropdown {
+.dropdown{
     float: center;
     overflow: hidden;
 }
   
-.dropdown .btn1 {
+.dropdown .btn1{
     cursor: pointer; 
     border: none;
     outline: none;
@@ -76,7 +75,7 @@ h3{
     background-color: inherit;
 }
   
-.menu a:hover, .dropdown:hover .btn1, .btn1:focus {
+#menu a:hover, .dropdown:hover .btn1{
     font-weight: 600;
 }
   
@@ -102,11 +101,10 @@ h3{
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-  
-.show {
+
+.dropdown:hover .dropdown-content{
     display: block;
 }
-  
 #roundbuttons{
     padding-top: 0.5rem;
     margin-left: 10rem;
@@ -231,7 +229,8 @@ footer{
 }
 
 @media(max-width:1024px){
-    .menu a{
+    /*header med navbar*/
+    #menu a{
         font-size: 1.2rem;
     }
     .dropdown .btn1{
@@ -241,7 +240,7 @@ footer{
         padding-top: 0rem;
         margin-left: 2rem;
     }
-
+    /*Footer*/
     footer{
         height:22rem;
     }
@@ -283,7 +282,7 @@ footer{
     }
 }
 @media(max-width:768px){
-    /*burgermenu*/
+    /*header inklusiv burgermenu*/
     .logo{
         width: 10rem;
         height: 5rem;
@@ -351,26 +350,27 @@ footer{
         opacity:0;
         width:0;
     }
-    .menu{
+    #menu{
         z-index:1;
         min-width:100%;
         min-height:100%;
         position: fixed;
-        top: -100px;
+        top:-15rem;
         height:0;
         visibility: hidden;
+        opacity: 0;
+        text-align: center;
         padding-top:20px;
         transition: all 0.3s ease-in-out;
         flex-direction: column;
-        text-align: center;
     }
-    .menu.overlay{
+    #menu.overlay{
         visibility: visible;
-        padding-top:0px;
+        padding-top:100px;
         background-color:#fff;
         opacity: 80%;
     }
-    .menu a{
+    #menu a{
         display:block;
         font-size: 1.3rem;
         text-decoration:none;
@@ -389,7 +389,7 @@ footer{
         padding-top: 3rem;
         margin-left: 0;
     }
-
+    /*Footer*/
     footer{
         height:20rem;
     }
@@ -433,6 +433,7 @@ footer{
     
 }
 @media (max-width: 480px){
+    /*header inklusiv burgermenu*/
     .logo{
         width: 8rem;
         height: 4rem;
@@ -447,7 +448,7 @@ footer{
         padding-top: 3rem;
         margin-left: -0.5rem;
     }
-
+    /*Footer*/
     footer{
         height:18rem;
     }
