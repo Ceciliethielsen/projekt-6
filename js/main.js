@@ -9,7 +9,7 @@
   //Lukker dropdown, hvis brugeren klikker et andet sted på siden
   window.onclick = function(e) {
     if (!e.target.matches('.btn1')) {
-    var myDropdown = document.getElementById("myDropdown");
+    let myDropdown = document.getElementById("myDropdown");
       if (myDropdown.classList.contains('show')) {
         myDropdown.classList.remove('show');
       }
@@ -22,7 +22,7 @@
   }
   window.onclick = function(e) {
     if (!e.target.matches('.btn1')) {
-    var myDropdown2 = document.getElementById("myDropdown2");
+    let myDropdown2 = document.getElementById("myDropdown2");
       if (myDropdown2.classList.contains('show')) {
         myDropdown2.classList.remove('show');
       }
@@ -35,7 +35,7 @@
   }
   window.onclick = function(e) {
     if (!e.target.matches('.btn1')) {
-    var myDropdown3 = document.getElementById("myDropdown3");
+    let myDropdown3 = document.getElementById("myDropdown3");
       if (myDropdown3.classList.contains('show')) {
         myDropdown3.classList.remove('show');
       }
@@ -48,7 +48,7 @@
   }
   window.onclick = function(e) {
     if (!e.target.matches('.btn1')) {
-    var myDropdown4 = document.getElementById("myDropdown4");
+    let myDropdown4 = document.getElementById("myDropdown4");
       if (myDropdown4.classList.contains('show')) {
         myDropdown4.classList.remove('show');
       }
