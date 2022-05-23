@@ -4,12 +4,15 @@ body{
 }
 h1{
     font-size: 2rem;
+    text-align: center;
+    color: #3DCD58;
 }
 h2{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: #3DCD58;
 }
 h3{
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 /*header*/
 .header{
