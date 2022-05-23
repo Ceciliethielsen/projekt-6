@@ -10,9 +10,43 @@
   font-family: wise;                                             
  }
 
+ h1 {
+  font-size: 2em;
+  color: #009530;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+ }
 
+ h2 {
+  font-size: 2em;
+  color: #009530;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 90px;
+ }
 
-.flex-container {
+/*Main start*/
+/*Første Sektion Hero billede og tekst på hero*/
+ .hero {
+   width: 100%;
+   height: auto;
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+
+ .top-left {
+   position: absolute;
+   top: 50px;
+   left: 16px;
+   color: #009530;
+   font-size: 2.5vw;
+   text-align: center;
+ }
+
+/*Ande sektion Sektion*/
+  /*Layout for flex wrap*/
+ .flex-container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -26,11 +60,13 @@
     font-size: 30px;
   }
 
+  /*Billeder i anden sektion*/
   .img2 {
     width: 100%;
     border-radius: 18%;
   }
   
+  /*Billeder funktion i anden sektion*/
   .img2:hover {
     box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
   }
@@ -39,25 +75,11 @@
     transform: translateY(10px);
   }
 
-  .img3 {
-    width: 50%;
-    border-radius: 18%;
-  }
-  
-  .img3:hover {
-    box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
-  }
-
-  .img3:active {
-    transform: translateY(10px);
-  }
-
+  /*tekst på billeder i anden sektion*/ 
   .container {
     position: relative;
-    text-align: center;
-    color: black;
   }
-  
+  /*Tekst på billeder*/
   .bottom-left {
     position: absolute;
     bottom: 25px;
@@ -69,87 +91,76 @@
     transform: translate(-50%, -50%);
   }
 
-  .top-left {
-    position: absolute;
-    top: 50px;
-    left: 16px;
-    color: #009530;
-    font-size: 2.5vw;
-    text-align: center;
+/*Tredje sektion Sektion*/
+  /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
+
+ /*Billeder i tredje sektion*/
+ .img3 {
+   width: 50%;
+   border-radius: 18%;
   }
 
-  .hero {
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+ /*Billedernes funktion i anden sektion*/
+ .img3:hover {
+   box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
+ }
 
-h1 {
-  font-size: 2em;
-  color: #009530;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px;
-}
-h2 {
-  font-size: 2em;
-  color: #009530;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 90px;
-}
+ .img3:active {
+   transform: translateY(10px);
+ }
 
-
-  .flex-container1 {
+/*Fjerde sektion Sektion*/
+   /*Layout for flex stretch - nyheder*/
+ .flex-container1 {
     display: flex;
     align-items: stretch;
     margin-left: 30px;
     margin-right: 30px;
-  
   }
-  
-  .flex-container1 > div {
+
+ .flex-container1 > div {
     color: #009530;
     margin: 5px;
     text-align: center;
-  margin-top: 10px;
+    margin-top: 10px;
     font-size: 30px;
-  height: 70px;
-  margin-bottom: 30px;
+    height: 70px;
+    margin-bottom: 30px;
+}
 
-  }
-
+  /*Stile billede box*/
   .flex {
     flex-grow: 1;
     border: solid #c1c1c1;
     border-radius: 18px;
-   width: 30%;
-   padding: 10px;
+    width: 30%;
+    padding: 10px;
   }
 
+    /*Stile billeder*/
+    .nyhed {
+      width: 60%;
+      border-radius: 40px;
+    }
+  
+    /*billeders funktion*/
+    .flex:hover {
+      box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
+    }
+  
+    .flex:active {
+      transform: translateY(10px);
+    }
+   
+  /*Stile text box*/
   .flex1 {
     flex-grow: 3;
     border: solid #c1c1c1;;
     border-radius: 18px;
     padding: 10px;
-   
   }
 
-  .nyhed {
-    width: 100%;
-  }
-
-  
-  
-  .flex:hover {
-    box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
-  }
-
-  .flex:active {
-    transform: translateY(10px);
-  }
-
+  /*Stile text - overskrift*/
   .over {
     font-size: 12px;
     color: #009530;
@@ -157,39 +168,30 @@ h2 {
     text-align: center;
   }
 
+  /*Stile text - copy*/
   .tekstny {
     font-size: 10px;
     color: black;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  @media screen and (min-width: 600px) {
+    .nyhed {
+      width: 40%;
+      border-radius: 40px;
+    }
+  }
 
   @media screen and (min-width: 768px) {
       .flex-container > div {
-          width: 47%;
+        width: 47%;
       }
       .flex-container1 > div {
-      height: 200px;
-      margin-bottom: 50px;
+        height: 200px;
+        margin-bottom: 50px;
       }
       .flex-container1 {
-
         margin-left: 40px;
         margin-right: 40px;
-      
       }
       .flex {
         border-radius: 30px;
@@ -200,7 +202,6 @@ h2 {
       .over {
         font-size: 20px;
       }
-    
       .tekstny {
         font-size: 15px;
       }
@@ -208,47 +209,52 @@ h2 {
 
   @media screen and (min-width: 1024px) {
     .flex-container > div {
-        width: 22%;
-}
-.flex-container {
-    margin-left: 10%;  
-    margin-right: 10%; 
-  }
-  .flex-container1 {
-  margin-left: 15%;
-  margin-right: 15%;
- 
-}
-.flex-container1 > div {
-  height: 130px;
-  }
-  .flex {
-    border-radius: 40px;
-    width: 10%;
-  }
-  .flex1 {
-    border-radius: 40px;
+      width: 22%;
+     }
+    .flex-container {
+      margin-left: 10%;  
+      margin-right: 10%; 
+     }
+    .flex-container1 {
+       margin-left: 15%;
+       margin-right: 15%; 
+     }
+     .flex-container1 > div {
+       height: 130px;
+     }
+     .flex {
+       border-radius: 40px;
+       width: 10%;
+     }
+     .flex1 {
+       border-radius: 40px;
+     }
+     .bottom-left {
+       font-size: 1.2vw;
+     }
+     .nyhed {
+       width: 60%;
+       border-radius: 40px;
+       padding-top: 15%;
+    }
   }
 
-  .bottom-left {
-    font-size: 1.2vw;
-  }
-
-
-}
-
-@media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     .flex-container > div {
         width: 23%;
-}
-.flex-container1 > div {
-  height: 200px;
+    }
+    .flex-container1 > div {
+        height: 200px;
+    }
+    .over {
+        font-size: 30px;
+    }
+    .tekstny {
+      font-size: 25px;
+    }
+    .nyhed {
+      width: 70%;
+      border-radius: 40px;
+      padding-top: 25%;
+    }
   }
-  .over {
-    font-size: 30px;
-  }
-
-  .tekstny {
-    font-size: 25px;
-  }
-}
