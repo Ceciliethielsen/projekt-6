@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Wiser - Kontakt os idag!</title>
-    <!--<script src="/js/main.js" defer></script>-->
-    <script src="/js/kontakt.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/kontakt.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kontakt.css">
 </head>
@@ -72,16 +72,16 @@
                 <p class="info">Tlf: 88 30 20 00</p>
                 <p class="info">E-mail: schneiderelectrics@gmail.com</p>
             </div>
-            <div class="kontakt-container">
-                <div class="kontaktformular">
-                    <p id="error"></p>
-                        <input id="name" class="kontakt-input" type="text">
-                        <input id="mail" class="kontakt-input" type="text">
-                        <input id="tlf" class="kontakt-input" type="text">
-                        <input id="emne" class="kontakt-input" type="text">
-                        <input id="besked" class="kontakt-input" type="text">
-                        <button id="send" type="submit" id="submit-form"><h3>Send</h3></button>
-                </div>
+            <div class="kontaktformular">
+                <p id="error"></p>
+                <form id="form-contact" class="contactform" autocomplete="on" onsubmit="check()">
+                    <input id="navn" class="kontakt-input" type="text" placeholder="Navn">
+                    <input id="mail" class="kontakt-input" type="text" placeholder="E-mail">
+                    <input id="tlf" class="kontakt-input" type="text" placeholder="Telefonnummer">
+                    <input id="emne" class="kontakt-input" type="text" placeholder="Emne">
+                    <input id="besked" class="kontakt-input" type="text" placeholder="Skriv besked her">
+                    <button id="send" type="submit" class="submit-form"><h3>Send</h3></button>
+                </form>
             </div>
         </div>
     </main>

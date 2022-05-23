@@ -1,6 +1,6 @@
-alert("HEEEJ");
-
-    let navn = document.getElementById("name");
+//Cecilies JS
+alert("HELLO WORLD!");
+    let navn = document.getElementById("navn");
     let mail = document.getElementById("mail");
     let tlf = document.getElementById("tlf");
     let emne = document.getElementById("emne");
