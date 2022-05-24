@@ -30,6 +30,8 @@
     flex-direction: column;
     margin: 2em;
     background-color: #3DCD58;
+    align-items: center;
+    border-radius: 10px;
 }
 .kontakt-input{
     height: 3rem;
@@ -50,11 +52,47 @@
     width: 5rem;
     border-radius: 3px;
     border: none;
+    background-color: #fff;
 }
 .submit-form:hover{
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
-#submit-form{
-    margin-left: auto;
-    margin-right: auto;
+
+
+@media (max-width: 480px){
+    .kontaktbox{
+        width: 20rem;
+    }
+    .info{
+        padding: 1rem;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .kontaktformular{
+        width: 15rem;
+        height: 27.5rem;
+    }
+    #error{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .contactform{
+        margin: 0;
+        padding: 5px;
+    }
+    .kontakt-input{
+        height: 2rem;
+        width: 13rem;
+        margin: 0.5rem;
+    }
+    .besked-input{
+        height: 7rem;
+        width: 13rem;
+        margin: 0.5rem;
+    }
+    .submit-form{
+        margin-left: 0rem;
+        width: 5rem;
+        height: 4.5rem;
+    }
 }

@@ -287,6 +287,16 @@ footer{
     }
 }
 @media(max-width:768px){
+    /*generelle styleelementer*/
+    h1{
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
     /*header inklusiv burgermenu*/
     .logo{
         width: 10rem;
@@ -303,7 +313,7 @@ footer{
         cursor: pointer;
         height: 27px;
         width: 27px;
-        margin: 50px;
+        margin: 2rem;
         overflow: visible;
         position: relative;
         z-index:2;
