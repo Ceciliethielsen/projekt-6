@@ -20,6 +20,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #3DCD58;
 }
+#error{
+    font-size: 1.5rem;
+    margin: 3rem;
+    font-weight: 400;
+}
 .contactform{
     display: flex;
     flex-direction: column;

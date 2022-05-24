@@ -9,7 +9,7 @@
 
     let borderColors = ["2px solid red", "1px solid green"];
     let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
-    let colors = ["red", "green"];
+    let colors = ["red", "black"];
 
     function check(){
         if(navn.value.length ==0 && mail.value.length ==0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
