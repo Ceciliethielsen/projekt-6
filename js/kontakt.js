@@ -14,9 +14,9 @@
     let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
     let colors = ["red", "black"];
 
-//Sørger for, at kodn først bliver læst, når der trykkes på knappen "send"
+//Sørger for, at koden først bliver læst, når der trykkes på knappen "send"
     function check(){
-        //if-statements eksekverer en kode, afhængig af betingelsen
+        //if-statements eksekverer en kode, afhængig af betingelsen - hvis if-statementet ikke lever op til betingelsen (hvis det ikke er sandt), går den videre til else if
         if(navn.value.length ==0 && mail.value.length ==0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
             //følgende kalder på arrayet ovenover - herunder henter den 0-værdi'en
             navn.style.border = borderColors[0];
@@ -87,7 +87,7 @@
     //Sørger for at siden ikke re-loader hver gang man trykker "send"
     const form = document.getElementById("form-contact");
     function handleform(event){
-        console.log("stopreload")
+        console.log("no-reload")
         event.preventDefault();
     }
     form.addEventListener('submit', handleform);
