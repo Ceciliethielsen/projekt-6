@@ -48,16 +48,19 @@
     border: none;
 }
 .submit-form{
-    margin-left: 26.5rem;
+    margin-left: 25.3rem;
     width: 5rem;
     border-radius: 3px;
     border: none;
     background-color: #fff;
+    font-size: 1.5rem;
+    color: #3DCD58;
+    font-weight: 600;
+    height: 4rem;
 }
 .submit-form:hover{
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
-
 
 @media (max-width: 480px){
     .kontaktbox{
@@ -93,6 +96,7 @@
     .submit-form{
         margin-left: 0rem;
         width: 5rem;
-        height: 4.5rem;
+        height: 3.5rem;
+        font-size: 1rem;
     }
 }
