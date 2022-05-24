@@ -8,7 +8,7 @@
     let error = document.getElementById("error");
 
     let borderColors =["3 px solid red", "1px solid grey"];
-    let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"]
+    let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
     let colors = ["red", "green"];
 
     function check(){
@@ -60,7 +60,7 @@
             
         }
         else{
-            console.log("Det virker ikke")
+            console.log("Det virker overhovedet ikke")
         }
     }
 
