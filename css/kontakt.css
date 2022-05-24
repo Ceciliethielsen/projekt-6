@@ -1,36 +1,53 @@
 .kontaktside{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .kontaktbox{
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 20rem;
-    margin-top: -17.3rem;
+    width: 40rem;
 }
 .info{
     padding: 1rem;
+    font-size: 1.2rem;
+    color: #3DCD58;
+    font-weight: 600;
+    text-align: center;
 }
 .kontaktformular{
     border-radius: 10px;
     margin: 2em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #3DCD58;
 }
 .contactform{
     display: flex;
     flex-direction: column;
     margin: 2em;
+    background-color: #3DCD58;
 }
 .kontakt-input{
     height: 3rem;
     width: 30rem;
     margin: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.besked-input{
+    height: 10rem;
+    width: 30rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
 }
 .submit-form{
     margin-left: 26.5rem;
     width: 5rem;
+    border-radius: 3px;
+    border: none;
+}
+.submit-form:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 #submit-form{
     margin-left: auto;
