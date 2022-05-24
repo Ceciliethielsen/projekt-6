@@ -7,7 +7,7 @@
     let besked = document.getElementById("besked");
     let error = document.getElementById("error");
 
-    let borderColors =["3 px solid red", "1px solid grey"];
+    let borderColors = ["3px solid red", "1px solid grey"];
     let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
     let colors = ["red", "green"];
 
@@ -24,29 +24,19 @@
 
         else if (navn.value.length !=0 && mail.value.length ==0 && tlf.value.length==0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[1];
-            mail.style.border = borderColors[0];
-            tlf.style.border = borderColors[0];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
             error.style.color = colors[0];
         }
 
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[2];
-            tlf.style.border = borderColors[0];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
             error.style.color = colors[0];
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[3];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
             error.style.color = colors[0];
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length !=0 && besked.value.length ==0){
             error.innerHTML = errorMessages[4];
-            besked.style.border = borderColors[0];
             error.style.color = colors[0];
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length !=0 && besked.value.length == true){
