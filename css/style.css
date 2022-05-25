@@ -139,7 +139,7 @@ h3{
   }
   
 .active {
-    background-color: #717171;
+    background-color:white;
   }
   
 .fade {
@@ -151,7 +151,7 @@ h3{
     from {opacity: .8} 
     to {opacity: 1}
  }
- 
+
 #hejwiser{
     display:flex;
     justify-content: center;
