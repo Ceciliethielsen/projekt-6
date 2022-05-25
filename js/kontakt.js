@@ -92,7 +92,7 @@
         console.log("no-reload")
         event.preventDefault();
     }
-    //Event
+    //Event som sender beskeden
     form.addEventListener('submit', handleform);
 //Cecilies JS slut
 
