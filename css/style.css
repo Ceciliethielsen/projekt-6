@@ -29,7 +29,6 @@ h3{
     height: 7,5rem;
     cursor: pointer;
 }
-
 #erhverv{
     height: 3rem;
     width: 8rem;
@@ -78,12 +77,10 @@ h3{
 }
 .btn1:active{
     color: #009530;
-}
-  
+} 
 #menu a:hover, .dropdown:hover .btn1{
     font-weight: 600;
-}
-  
+} 
 .dropdown-content {
     display: none;
     position: absolute;
@@ -93,7 +90,6 @@ h3{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
 .dropdown-content a {
     float: none;
     color: black;
@@ -102,7 +98,6 @@ h3{
     display: block;
     text-align: left;
 }
-  
 .dropdown-content a:hover {
     background-color: #ddd;
 }
