@@ -186,6 +186,48 @@ h3{
    border:none;
 }
 
+.btn2{
+    border:none;
+    background-color: white;
+}
+
+.btn2 img{
+    display: flex;
+    border: 0.3rem solid white;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.rogalarm{
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    color: #3DCD58;
+    font-size: 1.2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    display:flex;
+    border:none;
+    background-color: white;
+}
+
+.btn3 img{
+    border-radius: 2rem;
+    width: 27.5rem;
+}
+
+.btn3-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 /*Styleelementer for footeren*/
 footer{
