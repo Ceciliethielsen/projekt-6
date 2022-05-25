@@ -442,6 +442,10 @@ footer{
         font-size: 2rem;
     }
 
+    .middle-text-home{
+        font-size: 0.8rem;
+    }
+
     /*Footer*/
     footer{
         height:22rem;
