@@ -92,7 +92,7 @@
         console.log("no-reload")
         event.preventDefault();
     }
-    //Event som sender beskeden
+    //Event som sender beskeden via knappen, som har type "submit"
     form.addEventListener('submit', handleform);
 //Cecilies JS slut
 
