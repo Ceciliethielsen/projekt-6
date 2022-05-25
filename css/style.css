@@ -121,6 +121,156 @@ h3{
     padding-left: 0.5rem;
     cursor: pointer;
 }
+/*Styleelementer for main*/
+
+ #hejwiser{
+     display:flex;
+     justify-content: center;
+     font-style: italic;
+     padding-top: 6rem;
+     color:#3DCD58;
+     font-family: arial;
+     font-size: 2.5rem;
+ }
+
+ .upper-container{
+    display: flex;
+    justify-content: center;
+}
+
+.upper-btn{
+   padding-top: 4rem;
+   font-size: 2rem;
+}
+
+.btn1{
+   margin-right: 1.5rem;
+   width: 11rem;
+   border: 0.3rem solid white;
+   background-color: white;
+   border-radius: 2rem;
+   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem lightgrey;
+}
+
+.middle-container{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#middle-text{
+    text-align: center;
+    font-family: arial;
+    font-size: 2.3rem;
+    font-style: italic;
+    color: #3DCD58;
+}
+
+.middle-text-home{
+   text-align: center;
+   font-size: 1rem;
+   color:#717171;
+}
+
+.bottom-container{
+   display: flex;
+   justify-content: center;
+   font-family: arial;
+   color: #3DCD58;
+   font-size: 1.4rem;
+}
+
+.bottom-last-container{
+   display: flex;
+   justify-content: center;
+   border:none;
+}
+
+.btn2{
+    border:none;
+    background-color: white;
+}
+
+.btn2 img{
+    display: flex;
+    border: 0.3rem solid white;
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.rogalarm{
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    color: #3DCD58;
+    font-size: 1.2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    display:flex;
+    border:none;
+    background-color: white;
+}
+
+.btn3 img{
+    border-radius: 2rem;
+    width: 27.5rem;
+}
+
+.btn3-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn4{
+    display: flex;
+    border:none;
+    background-color: white;
+}
+
+.btn4 img{
+    border-radius: 2rem;
+    width: 16rem;
+    align-items: center;
+}
+
+.lower-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-text a{
+  justify-content: space-between;
+  color:#3DCD58;
+  font-family: arial;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding-right: 2rem;
+  padding-left: 9rem;
+}
+
+.elektriker-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.findelektriker button{
+    border:none;
+    background-color: white;
+}
+
+.findelektriker img{
+    border-radius: 2rem;
+}
+
+
 /*Styleelementer for footeren*/
 footer{
     justify-content:space-around;
