@@ -443,7 +443,7 @@ footer{
     }
 
     #middle-text{
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
 
     .middle-text-home{
@@ -472,6 +472,10 @@ footer{
 
     .btn-text a{
         font-size: 1.0rem;
+    }
+
+    .findelektriker img{
+        width: 40rem;
     }
 
     /*Footer*/
