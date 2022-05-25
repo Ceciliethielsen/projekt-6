@@ -450,6 +450,10 @@ footer{
         font-size: 0.8rem;
     }
 
+    .bottom-container{
+        font-size: 1.2rem;
+    }
+
     /*Footer*/
     footer{
         height:22rem;
