@@ -5,28 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Wiser - Kontakt os idag!</title>
-    <script src="/js/main.js" defer></script>
-    <script src="/js/kontakt.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/kontakt.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kontakt.css">
 </head>
 <body>
     <header>
-
+        <div class="header">
+            <div id="headercontainer">
+              <a href="index.html">
+                <img src="img/wiser-logo1.png" alt="wiser-logo" class="logo">
+              </a>
+                <div id="buttons">
+                  <button id="erhverv">ERHVERV</button>
+                  <button id="privat">PRIVAT</button>
+                </div>
+            </div>
+          <!--Burgermenu-->
+          <div id="burgermenu"> 
+            <span></span>
+          </div>
+          <div id="menu">
+            <a href="index.html">HJEM</a>
+            <div class="dropdown">
+            <button class="btn1">SORTIMENT</button>
+              <div class="dropdown-content">
+                <a href="#">Stikkontakter og funktioner</a>
+                <a href="#">Smarthome-løsninger</a>
+                <a href="#">Andre løsninger</a>
+                <a href="#">Produktkatalog</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn1">OPLEV WISER</button>
+              <div class="dropdown-content">
+                <a href="#">Prøv Wiser Simulator</a>
+                <a href="#">Om Wiser</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn1">SÅDAN FÅR DU WISER</button>
+              <div class="dropdown-content">
+                <a href="#">Gør det selv</a>
+                <a href="#">Bestil et tilbud fra en elektriker</a>
+                <a href="#">Kan du få Wiser?</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn1" class="active">KONTAKT OS</button>
+              <div class="dropdown-content">
+                <a href="kontakt.html" class="active">Kontakt Schneider Electric</a>
+                <a href="#">Kontakt elektriker</a>
+                <a href="#">Chat med support</a>
+              </div>
+            </div>
+            <div id="roundbuttons">
+              <img src="img/search.png" alt="Search" class="search">
+              <img src="img/profile.png" alt="Profile" class="profile">
+            </div> 
+          </div>
     </header>
     <main>
+        <br><br>
         <h1>KONTAKT OS HER</h1>
         <div class="kontaktside">
             <div class="kontaktbox">
-                <h2>Tlf: 88 30 20 00</h2>
-                <h2>E-mail: schneiderelectrics@gmail.com</h2>
-                <h2>Eller kontakt os via kontaktformularen</h2>
+                <p class="info">Du er meget velkommen til enten at kontakte os pr telefon, e-mail eller via kontaktformularen nederst på siden.</p>
+                <p class="info">Tlf: 88 30 20 00</p>
+                <p class="info">E-mail: schneiderelectrics@gmail.com</p>
             </div>
-            <div id="kontaktformular"></div>
+            <div class="kontaktformular">
+                <p id="error"></p>
+                <form id="form-contact" class="contactform" autocomplete="on" onsubmit="check()">
+                    <input id="navn" class="kontakt-input" type="text" placeholder="Navn">
+                    <input id="mail" class="kontakt-input" type="text" placeholder="E-mail">
+                    <input id="tlf" class="kontakt-input" type="text" placeholder="Telefonnummer">
+                    <input id="emne" class="kontakt-input" type="text" placeholder="Emne">
+                    <input id="besked" class="besked-input" type="text" placeholder="Skriv besked her">
+                    <button id="send" type="submit" class="submit-form">Send</button>
+                </form>
+            </div>
         </div>
     </main>
+    <br><br><br>
     <footer>
-        
+        <section class="footer">
+            <div class="social">
+                <a href="https://twitter.com/SchneiderElecDK"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/LauritzKnudsenbySchneiderElectric"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/schneider-electric/"><i class="fab fa-linkedin"></i></a> 
+                <a href="https://www.youtube.com/user/SchneiderElectricDK"><i class="fab fa-youtube"></i></a>    
+            </div>
+            <ul class="list">
+              <li> <b><a href="https://www.lk.dk/om-os">Om os</a></b></li>
+              <li> <b><a href="https://www.lk.dk/om-os/historie/">Vores historie</a></b></li>
+              <li> <b><a href="https://www.lk.dk/om-os/job-og-karriere/">Job og karriere</a></b></li>
+              <li> <b><a href="https://www.lk.dk/om-os/presserum/">Presserum</a></b></li>
+              <li> <b><a href="https://www.lk.dk/om-os/baeredygtighed/">Bæredygtighed</a></b></li>
+            </ul>
+              <p class="copyright"> &copy; Schneider Electric 2022 -  <a href="https://www.se.com/dk/da/about-us/legal/data-privacy.jsp">Privatlivspolitik</a> |
+                  <a href="https://www.lk.dk/disclaimer/">Cookiepolitik</a> |
+    
+                  <a href="https://www.se.com/dk/da/about-us/legal/terms-of-use.jsp">Vilkår for anvendelse og ophavsret</a> 
+              </p>
+              <p class="lk"> Schneider Electric Danmark A/S, Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
+                  <div class="nyhedsbrev">
+                      <p> Tilmeld nyhedsbrev <br>
+                           Få specifikke nyheder direkte i din indbakke
+                      <a href="https://go.schneider-electric.com/DK_202006_General-Opt-in-LP_ver2ShortDescriptionFormAbbreviationLP.html?source=Website&sDetail=All%20BU%20General%20newsletter-sign-up">
+                      <br>
+                      <br>
+                  <button class="tilmeld">Tilmeld</button>
+                      </a>
+                      </p>         
+                  </div>
+        </section>
     </footer>
 </body>
 </html>
