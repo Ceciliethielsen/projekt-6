@@ -1,7 +1,7 @@
 //Cecilies JS
 //alert("HELLO WORLD!");
 
-//Variablerne defineres herunder - hentet fra DOM
+//Variablerne defineres herunder - hentet fra DOM ved brug af getElementById - retunerer objektet med id'et ( fx navn)
     let navn = document.getElementById("navn");
     let mail = document.getElementById("mail");
     let tlf = document.getElementById("tlf");
@@ -16,7 +16,8 @@
 
 //Sørger for, at koden først bliver læst, når der trykkes på knappen "send"
     function check(){
-        //if-statements eksekverer en kode, afhængig af betingelsen - hvis if-statementet ikke lever op til betingelsen (hvis det ikke er sandt), går den videre til else if
+        //Herunder er kontrolstruktur - if else
+        //if-statements eksekverer en kode, afhængig af betingelsen - hvis if-statementet ikke lever op til betingelsen (hvis det ikke er sandt), går den videre til else if - dette gøres ved hjælp af boolske operatorer (== lig med, != Ikke lig med)
         if(navn.value.length ==0 && mail.value.length ==0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
             //følgende kalder på arrayet ovenover - herunder henter den 0-værdi'en
             navn.style.border = borderColors[0];
@@ -80,6 +81,7 @@
             console.log("Det virker overhovedet ikke")
         }
     }
+    //Herunder er også kontrolstruktur - loop
     //for-loop som fortæller, at i = 0. Det betyder, at så længe i er mindre end array'et "errorMessages", så vil loopet altid blive plusset med 1 - i++
     for (i = 0; i < errorMessages.length; i++){
         console.log(errorMessages[i])
@@ -90,6 +92,7 @@
         console.log("no-reload")
         event.preventDefault();
     }
+    //Event
     form.addEventListener('submit', handleform);
 //Cecilies JS slut
 
