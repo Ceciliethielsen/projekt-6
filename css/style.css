@@ -456,7 +456,14 @@ footer{
 
     .btn2 img{
         width: 40rem;
+    }
 
+    .rogalarm{
+        font-size: 1.0rem;
+    }
+
+    .btn3 img{
+        width: 25.5rem;
     }
 
     /*Footer*/
