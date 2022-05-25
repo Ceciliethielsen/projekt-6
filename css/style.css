@@ -637,6 +637,64 @@ footer{
         padding-top: 3rem;
         margin-left: 0;
     }
+/*main*/
+    .carousel-container{
+        height:16rem;
+    }
+
+    .carouselSlides{
+        height:16rem;
+        width:100%;
+    }
+
+    carouselSlides img{
+        height: 600px;
+    }
+
+    #hejwiser{
+        font-size: 2.0rem;
+    }
+
+    .btn6{
+        width: 9rem;
+    }
+
+    #middle-text{
+        font-size: 1.9rem;
+    }
+
+    .middle-text-home{
+        font-size: 0.8rem;
+    }
+
+    .bottom-container{
+        font-size: 1.2rem;
+    }
+
+    .btn2 img{
+        width: 40rem;
+    }
+
+    .rogalarm{
+        font-size: 1.0rem;
+    }
+
+    .btn3 img{
+        width: 25.5rem;
+    }
+
+    .btn4 img{
+        width: 14rem;
+    }
+
+    .btn-text a{
+        font-size: 1.0rem;
+    }
+
+    .findelektriker img{
+        width: 40rem;
+    }
+
     /*Footer*/
     footer{
         height:20rem;
@@ -680,6 +738,7 @@ footer{
     }
     
 }
+
 @media (max-width: 480px){
     /*header inklusiv burgermenu*/
     .logo{
