@@ -228,6 +228,48 @@ h3{
     align-items: center;
 }
 
+.btn4{
+    display: flex;
+    border:none;
+    background-color: white;
+}
+
+.btn4 img{
+    border-radius: 2rem;
+    width: 16rem;
+    align-items: center;
+}
+
+.lower-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-text a{
+  justify-content: space-between;
+  color:#3DCD58;
+  font-family: arial;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding-right: 2rem;
+  padding-left: 9rem;
+}
+
+.elektriker-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.findelektriker button{
+    border:none;
+    background-color: white;
+}
+
+.findelektriker img{
+    border-radius: 2rem;
+}
+
 
 /*Styleelementer for footeren*/
 footer{
