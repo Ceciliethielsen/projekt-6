@@ -454,6 +454,11 @@ footer{
         font-size: 1.2rem;
     }
 
+    .btn2 img{
+        width: 40rem;
+
+    }
+
     /*Footer*/
     footer{
         height:22rem;
