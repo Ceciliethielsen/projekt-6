@@ -419,6 +419,13 @@ footer{
         padding-top: 0rem;
         margin-left: 2rem;
     }
+
+    /*main*/
+    .carouselSlides{
+        height:18rem;
+        width:100%;
+    }
+
     /*Footer*/
     footer{
         height:22rem;
