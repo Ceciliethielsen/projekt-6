@@ -303,7 +303,7 @@ h3{
 /*Styleelementer for footeren*/
 footer{
     justify-content:space-around;
-    margin: 0;
+    margin-top:2rem ;
     padding: 0;
     font-family: arial;
     display:flex;
