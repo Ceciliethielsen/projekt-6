@@ -422,9 +422,8 @@ footer{
 
     /*main*/
 
-    .carouselSlides{
-        height:18rem;
-        width:100%;
+    .carouselSlides img{
+        height: 18rem;
     }
 
     #hejwiser{
@@ -632,11 +631,6 @@ footer{
     }
 /*main*/
 
-    .carouselSlides{
-        height:14rem;
-        width:100%;
-    }
-
     .carouselSlides img{
         height: 18rem;
     }
@@ -646,11 +640,11 @@ footer{
     }
 
     .btn6{
-        width: 9rem;
+        width: 7rem;
     }
 
     #middle-text{
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 
     .middle-text-home{
