@@ -1,32 +1,8 @@
-/*Font*/
-@font-face {
-  src: url(font/arlrdbd.ttf);
-  font-family: wise;
- }
-
-/*Grund elemneter for body*/
- body {
-  background-color: white;
-  font-family: wise;                                             
- }
-
- h1 {
-  font-size: 2em;
-  color: #009530;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px;
- }
-
- h2 {
-  font-size: 2em;
-  color: #009530;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 90px;
- }
-
 /*Main start*/
+
+.oplevover {
+  text-align: center;
+}
 /*Første Sektion Hero billede og tekst på hero*/
  .hero {
    width: 100%;
@@ -79,6 +55,7 @@
   .container {
     position: relative;
   }
+
   /*Tekst på billeder*/
   .bottom-left {
     position: absolute;
@@ -92,8 +69,132 @@
   }
 
 /*Tredje sektion Sektion*/
-  /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
+/*Simulator*/
+.flex-container5 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.flex-container5 > div {
+  height: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.img5 {
+  margin-right: 50%;
+}
+
+.stile {
+  width: 30px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.container5 {
+  position: relative;
+}
+/*Tekst på billeder*/
+.bottom-left5 {
+  position: absolute;
+  bottom: 25px;
+  left: 110%;
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.1;
+  width: 10px;
+}
+
+.emoji {
+ 
+  display: none;
+}
+
+.emoji1 {
+
+}
+
+.emoji2 {
+
+display: none;
+}
+
+.emoji3 {
+
+display: none;
+}
+
+#myImagei {
+
+   display: none;
+}
+
+.hov {
+
+display: none;
+}
+
+.hov {
+
+display: none;
+}
+
+.hov:active {
+
+display: none;
+}
+
+.closedTn {
+display: none;
+}
+
+.openTn {
+display: none;
+}
+
+.activeTn {
+display: block;
+}
+
+.closedTi {
+display: none;
+}
+
+.openTi {
+display: none;
+}
+
+.activeTi {
+display: block;
+}
+
+.closedTa {
+display: none;
+}
+
+.openTa {
+display: none;
+}
+
+.activeTa {
+display: block;
+}
+
+.closedTb {
+display: none;
+}
+
+.openTb {
+display: none;
+}
+
+.activeTb {
+display: block;
+}
+
+
+  /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
  /*Billeder i tredje sektion*/
  .img3 {
    width: 50%;
@@ -135,6 +236,7 @@
     border-radius: 18px;
     width: 30%;
     padding: 10px;
+    box-shadow: 0 3px 6px 0 #626469,0 3px 6px 0 #626469;
   }
 
     /*Stile billeder*/
@@ -142,7 +244,49 @@
       width: 60%;
       border-radius: 40px;
     }
-  
+
+    .bord {
+      padding: 0;
+      margin: 0;
+      -webkit-box-sizing: border-box;
+    }
+    
+    .crossfd {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden1.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
+    .crossfd1 {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden2.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
+    .crossfd2 {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden3.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
+    .crossfd3 {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden4.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
+    .crossfd4 {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden5.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
+    .crossfd5 {
+      background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden6.svg);
+      display: inline-block;
+      background-size: 100%;
+    }
+
     /*billeders funktion*/
     .flex:hover {
       box-shadow: 0 12px 16px 0 #626469,0 17px 50px 0 #626469;
@@ -158,12 +302,13 @@
     border: solid #c1c1c1;;
     border-radius: 18px;
     padding: 10px;
+    box-shadow: 0 3px 6px 0 #626469,0 3px 6px 0 #626469;
   }
 
   /*Stile text - overskrift*/
   .over {
     font-size: 12px;
-    color: #009530;
+    color: #3DCD58;
     font-weight: bold;
     text-align: center;
   }
@@ -205,7 +350,90 @@
       .tekstny {
         font-size: 15px;
       }
-  }
+      .hov {
+        width: 55px;
+        height: 55px;
+      }
+      .stile {
+        width: 30px;
+
+      }
+      
+      .container5 {
+        position: relative;
+      }
+      /*Tekst på billeder*/
+      .bottom-left5 {
+        position: absolute;
+        bottom: 25px;
+        left: 110%;
+        font-size: 3vw;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.1;
+        width: 10px;
+      } 
+      .emoji {
+        width: 10px;
+        font-size: 0.07rem;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 25%;
+        margin-left: 55%; 
+        display: block; 
+      }
+      .emoji1 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 25%;
+      margin-left: 72%;
+      display: block;
+      }
+      .emoji2 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 40%;
+      margin-left: 55%;
+      display: block;
+      }
+      .emoji3 {
+      font-size: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 40%;
+      margin-left: 72%;
+      display: block;
+      }
+      
+      #myImagei {
+         width: 200%;
+         height: auto;
+         display: block;
+         display: block;
+      }
+      .hov {
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        
+        display: block;
+        }
+        
+        .hov {
+        box-shadow: 0 2px 6px 0 #626469,0 5px 15px 0 #626469;
+        display: block;
+
+        }
+        
+        .hov:active {
+        transform: translateY(10px);
+        display: block;
+        }
+      }
+
+
 
   @media screen and (min-width: 1024px) {
     .flex-container > div {
@@ -237,7 +465,35 @@
        border-radius: 40px;
        padding-top: 15%;
     }
-  }
+    #myImagei {
+      width: 300%;
+      height: auto;
+    }
+    .stile {
+      width: 45px;
+    }
+    .hov {
+      width: 55px;
+      height: 55px;
+    }
+    .emoji {
+      margin-bottom: 70%;
+      margin-left: 163%;  
+    }
+    .emoji1 {
+    margin-bottom: 47%;
+    margin-left: 163%;
+    }
+    .emoji2 {
+    margin-bottom: 70%;
+    margin-left: 139%;
+    }
+    .emoji3 {
+    margin-bottom: 47%;
+    margin-left: 139%;
+    }
+    }
+
 
   @media screen and (min-width: 1440px) {
     .flex-container > div {
@@ -257,4 +513,32 @@
       border-radius: 40px;
       padding-top: 25%;
     }
-  }
+    #myImagei {
+      width: 370%;
+      height: auto;
+    }
+    .stile {
+      width: 65px;
+    }
+    .hov {
+      width: 75px;
+      height: 75px;
+    }
+    .emoji {
+      margin-bottom: 85%;
+      margin-left: 227%;  
+    }
+    .emoji1 {
+    margin-bottom: 52%;
+    margin-left: 227%;
+    }
+    .emoji2 {
+    margin-bottom: 85%;
+    margin-left: 195%;
+    }
+    .emoji3 {
+    margin-bottom: 52%;
+    margin-left: 195%;
+    }
+    }
+  

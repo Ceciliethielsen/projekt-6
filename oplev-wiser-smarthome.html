@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,60 +11,64 @@
     <link rel="stylesheet" href="css/oplevwiser.css">
     <script src="js/main.js" defer></script>
     <script src="js/oplevwiser.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+ </head>
  <body>
-    <header>
-        <div class="header">
-            <div id="headercontainer">
-              <img src="img/wiser-logo1.png" alt="wiser-logo" class="logo">
-                <div id="buttons">
-                  <button id="erhverv">ERHVERV</button>
-                  <button id="privat">PRIVAT</button>
-                </div>
+   <header>
+     <div class="header">
+        <div id="headercontainer">
+          <a href="index.html">
+            <img src="img/wiser-logo1.png" alt="wiser-logo" class="logo">
+          </a>
+            <div id="buttons">
+              <button id="erhverv">ERHVERV</button>
+              <button id="privat">PRIVAT</button>
             </div>
-          <!--Burgermenu-->
-          <div id="burgermenu"> 
-            <span></span>
-          </div>
-          <nav id="menu">
-                <a href="index.html" class="active">HJEM</a>
-                <div class="dropdown">
-                  <button class="btn1">SORTIMENT<i class="fa fa-caret-down"></i></button>
-                  <div class="dropdown-content">
-                    <a href="#">Stikkontakter og funktioner</a>
-                    <a href="#">Smarthome-løsninger</a>
-                    <a href="#">Andre løsninger</a>
-                    <a href="#">Produktkatalog</a>
-                  </div>
-                </div>
-                <div class="dropdown">
-                  <button class="btn1">OPLEV WISER<i class="fa fa-caret-down"></i></button>
-                  <div class="dropdown-content">
-                    <a href="#">Prøv Wiser Simulator</a>
-                    <a href="#">Om Wiser</a>
-                  </div>
-                </div>
-                <div class="dropdown">
-                  <button class="btn1">SÅDAN FÅR DU WISER<i class="fa fa-caret-down"></i></button>
-                  <div class="dropdown-content">
-                    <a href="#">Gør det selv</a>
-                    <a href="#">Bestil et tilbud fra en elektriker</a>
-                    <a href="#">Kan du få Wiser?</a>
-                  </div>
-                </div>
-                <div class="dropdown">
-                  <button class="btn1">KONTAKT OS<i class="fa fa-caret-down"></i></button>
-                  <div class="dropdown-content">
-                    <a href="#">Kontakt Schneider Electric</a>
-                    <a href="#">Kontakt elektriker</a>
-                    <a href="#">Chat med support</a>
-                  </div>
-                </div>
-                  <img src="img/search.png" alt="Search" class="search">
-                  <img src="img/profile.png" alt="Profile" class="profile">
-          </nav>
         </div>
+       <!--Burgermenu-->
+       <div id="burgermenu"> 
+        <span></span>
+       </div>
+       <div id="menu">
+         <a href="index.html" class="active">HJEM</a>
+         <div class="dropdown">
+           <button class="btn1">SORTIMENT</button>
+             <div class="dropdown-content">
+               <a href="#">Stikkontakter og funktioner</a>
+               <a href="#">Smarthome-løsninger</a>
+               <a href="#">Andre løsninger</a>
+               <a href="#">Produktkatalog</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn1">OPLEV WISER</button>
+          <div class="dropdown-content">
+            <a href="#">Prøv Wiser Simulator</a>
+            <a href="#">Om Wiser</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn1">SÅDAN FÅR DU WISER</button>
+          <div class="dropdown-content">
+            <a href="#">Gør det selv</a>
+            <a href="#">Bestil et tilbud fra en elektriker</a>
+            <a href="#">Kan du få Wiser?</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn1">KONTAKT OS</button>
+          <div class="dropdown-content">
+            <a href="kontakt.html">Kontakt Schneider Electric</a>
+            <a href="#">Kontakt elektriker</a>
+            <a href="#">Chat med support</a>
+          </div>
+        </div>
+        <div id="roundbuttons">
+          <img src="img/search.png" alt="Search" class="search">
+          <img src="img/profile.png" alt="Profile" class="profile">
+        </div> 
+      </div>
     </header>
     <main>
       <!--Main start, første sektion, hero-billede-->
@@ -81,51 +85,53 @@
          </div>
          <div class="flex-container">
              <div class="container">
-                <input class="img2" type="image" name="produkt" src="img/oplevwiser/lysaktivering.png" alt="produkt ikon"> 
+                <input class="img2" type="image" name="produkt" src="img/oplevwiser/lysaktivering.png" alt="Billede som illusterer overskriften, lysfunktioner"> 
                     <div class="bottom-left">LYSSTYRING</div>
               </div>
               <div class="container">    
-                <input class="img2" type="image" name="produkt" src="img/oplevwiser/temperatur1.png" alt="produkt ikon"> 
+                <input class="img2" type="image" name="produkt" src="img/oplevwiser/temperatur1.png" alt="Billede som illusterer overskriften, connect"> 
                     <div class="bottom-left">CONNECT</div>
               </div>
               <div class="container">    
-                 <input class="img2" type="image" name="produkt" src="img/oplevwiser/temperatur.png" alt="produkt ikon"> 
+                 <input class="img2" type="image" name="produkt" src="img/oplevwiser/temperatur.png" alt="Billede som illusterer overskriften, temperatur-sensor"> 
                    <div class="bottom-left">TEMPERATUR</div>
               </div>  
               <div class="container">    
-                 <input class="img2" type="image" name="produkt" src="img/oplevwiser/app.png" alt="produkt ikon"> 
+                 <input class="img2" type="image" name="produkt" src="img/oplevwiser/app.png" alt="Billede som illusterer overskriften, få wiser app"> 
                    <div class="bottom-left">WISER APP</div>
               </div>
           </div>
       </section>   
       <!--tredsje sektion, 4 kasser til knapper for simulator (Flexbox Wrap) Knap, billede, tekst-->  
       <section>
-        <h2>Simulator</h2>
-         <div class="flex-container">
-             <div class="container">
-                <input class="img3" type="image" name="produkt" src="img/oplevwiser/simu1.png" alt="produkt ikon"> 
-                   <div class="bottom-left">LYSSTYRING</div>
-             </div>
-             <div class="container">    
-                <input class="img3" type="image" name="produkt" src="img/oplevwiser/simu2.png" alt="produkt ikon"> 
-                   <div class="bottom-left">SCENCORER</div>
-             </div>
-             <div class="container">    
-                <input class="img3" type="image" name="produkt" src="img/oplevwiser/simu3.png" alt="produkt ikon"> 
-                  <div class="bottom-left">RØGALARM</div>
-             </div>  
-             <div class="container">    
-                <input class="img3" type="image" name="produkt" src="img/oplevwiser/simu4.png" alt="produkt ikon"> 
-                  <div class="bottom-left">WISER APP</div>
-             </div>
-         </div>
+        <h2 class="oplevover">Simulator</h2>
+        <div class="flex-container5">
+          <div class="container5">
+              <img src="img/oplevwiser/forsidemedtekstgtgt.svg" class="img5" id="myImagei">
+                  <div class="emoji hov bottom-left5"> 
+                    <input onclick="changeImagei()" type="image" class="stile closedTn activeTn" name="knap" src="img/oplevwiser/simu/lysstart.png" alt="Billede som illusterer lys knappen, inden den er aktiv"> 
+                    <input onclick="changeImagei()" type="image" class="stile openTn" name="knap" src="img/oplevwiser/simu/lysaktiv.png" alt="billede som illustrer at lys knappen er aktiv"> 
+                  </div>
+                  <div class="emoji1 hov bottom-left5">  
+                    <input onclick="changeImagea()" type="image" class="stile closedTi activeTi" name="knap" src="img/oplevwiser/simu/vandstart.png" alt="Billede som illusterer vand sensor knappen, inden den er aktiv"> 
+                    <input onclick="changeImagea()" type="image" class="stile stile openTi" name="knap" src="img/oplevwiser/simu/vandaktiv.png" alt="billede som illustrer at vand sensor knappen er aktiv"> 
+                  </div>
+                  <div class="emoji2 hov bottom-left5"> 
+                    <input onclick="changeImageb()" type="image" class="stile closedTa activeTa" name="knap" src="img/oplevwiser/simu/rogstart.png" alt="Billede som illusterer roegalarm knappen, inden den er aktiv"> 
+                    <input onclick="changeImageb()" type="image" class="stile openTa" name="knap" src="img/oplevwiser/simu/rogaktiv.png" alt="billede som illustrer at roegalarm knappen er aktiv"> 
+                  </div>
+                  <div class="emoji3 hov bottom-left5"> 
+                    <input onclick="changeImagec()" type="image" class="stile closedTb activeTb" name="knap" src="img/oplevwiser/simu/dorstart.png" alt="Billede som illusterer dør og vindues sensor knappen, inden den er aktiv"> 
+                    <input onclick="changeImagec()" type="image" class="stile openTb" name="knap" src="img/oplevwiser/simu/doraktiv.png" alt="billede som illustrer at dør og vindues sensor knappen er aktiv">
+                  </div>
+           </div>
+        </div>
       </section>
       <!--Fjerde sektion, nyheds boxe (Flexbox stretch) flex box billede, flex1 tekst-->
       <section>
-        <h2>Nyheder</h2>
-         <div class="flex-container1">
-            <div class="flex">
-              <img class="nyhed" src="img/oplevwiser/nyhed1.png" alt="">
+        <h2 class="oplevover">Nyheder</h2>
+         <div class="flex-container1 test">
+            <div class="flex border crossfd">
             </div>
             <div class="flex1">
               <p class="over"> Hej og velkommen</p>
@@ -137,14 +143,11 @@
               <p class="over"> Hej og velkommen</p>
               <p class="tekstny">alt hvad du ønsker at vide skal jeg fortælle dig.</p>
             </div>
-            </div>
-            <div class="flex">
-              <img class="nyhed" src="img/oplevwiser/nyhed4.png" alt="">
+            <div class="flex border crossfd1">
             </div>
          </div>
          <div class="flex-container1">
-           <div class="flex">
-             <img class="nyhed" src="img/oplevwiser/hvorfor2.png" alt="">
+           <div class="flex border crossfd2">
            </div>
            <div class="flex1">
              <p class="over"> Hej og velkommen</p>
@@ -156,17 +159,15 @@
              <p class="over"> Hej og velkommen</p>
              <p class="tekstny">alt hvad du ønsker at vide skal jeg fortælle dig.</p>
            </div>
-           <div class="flex">
-             <img class="nyhed" src="img/oplevwiser/test.png" alt="">
+           <div class="flex border crossfd3">
            </div>
          </div>
       </section>
       <!--Femte sektion, fordele med Wiser (Flexbox stretch - samme layout som sektion 4)-->
       <section>
-        <h2>Hvorfor vælge wiser:</h2>
+        <h2 class="oplevover">Hvorfor vælge wiser:</h2>
           <div class="flex-container1">
-            <div class="flex">
-              <img class="nyhed" src="img/oplevwiser/hvorfor1.png" alt="">
+            <div class="flex border crossfd4">
             </div>
             <div class="flex1">
               <p class="over"> Hej og velkommen</p>
@@ -178,13 +179,42 @@
               <p class="over"> Hej og velkommen</p>
               <p class="tekstny">alt hvad du ønsker at vide skal jeg fortælle dig.</p>
             </div>
-            <div class="flex">
-              <img class="nyhed" src="img/oplevwiser/hvorfor3.png" alt="">
+            <div class="flex border crossfd5">
             </div>
           </div>
       </section>
     </main>
     <footer>
+      <section class="footer">
+        <div class="social">
+            <a href="https://twitter.com/SchneiderElecDK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/LauritzKnudsenbySchneiderElectric"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/schneider-electric/"><i class="fab fa-linkedin"></i></a> 
+            <a href="https://www.youtube.com/user/SchneiderElectricDK"><i class="fab fa-youtube"></i></a>    
+        </div>
+        <ul class="list">
+            <li> <b><a href="https://www.lk.dk/om-os">Om os</a></b></li>
+            <li> <b><a href="https://www.lk.dk/om-os/historie/">Vores historie</a></b></li>
+            <li> <b><a href="https://www.lk.dk/om-os/job-og-karriere/">Job og karriere</a></b></li>
+            <li> <b><a href="https://www.lk.dk/om-os/presserum/">Presserum</a></b></li>
+            <li> <b><a href="https://www.lk.dk/om-os/baeredygtighed/">Bæredygtighed</a></b></li>
+        </ul>
+             <p class="copyright"> &copy; Schneider Electric 2022 -  <a href="https://www.se.com/dk/da/about-us/legal/data-privacy.jsp">Privatlivspolitik</a> |
+               <a href="https://www.lk.dk/disclaimer/">Cookiepolitik</a> |
+               <a href="https://www.se.com/dk/da/about-us/legal/terms-of-use.jsp">Vilkår for anvendelse og ophavsret</a> 
+             </p>
+             <p class="lk"> Schneider Electric Danmark A/S, Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
+             <div class="nyhedsbrev">
+                <p> Tilmeld nyhedsbrev <br>
+                       Få specifikke nyheder direkte i din indbakke
+                  <a href="https://go.schneider-electric.com/DK_202006_General-Opt-in-LP_ver2ShortDescriptionFormAbbreviationLP.html?source=Website&sDetail=All%20BU%20General%20newsletter-sign-up">
+                    <br>
+                    <br>
+                    <button class="tilmeld">Tilmeld</button>
+                  </a>
+                </p>         
+             </div>
+      </section>
     </footer>
  </body>
 </html>

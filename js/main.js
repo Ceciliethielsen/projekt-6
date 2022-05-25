@@ -11,3 +11,43 @@
     overlay.classList.toggle("overlay");
   });
 //Cecilie JS slut
+
+//Kamilla JS start
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let x;
+  let slides = document.getElementsByClassName("carouselSlides");
+  let dots = document.getElementsByClassName("prik");
+  for (x = 0; x < slides.length; x++) {
+    slides[x].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (x = 0; x < dots.length; x++) {
+    dots[x].className = dots[x].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000);
+}
+
+const hour = new Date().getHours();
+let greeting;
+
+if (hour < 8){
+    greeting = "Godmorgen, velkommen til Wiser";
+}
+else if (hour < 14){
+    greeting = "Godmiddag, velkommen til Wiser";
+}
+else if (hour < 18){
+    greeting = "God-eftermiddag, velkommen til Wiser"
+}
+else {
+    greeting = "Godaften, velkommen til Wiser";
+}
+document.getElementById("hejwiser").innerHTML = greeting;
+//Kamilla JS slut
