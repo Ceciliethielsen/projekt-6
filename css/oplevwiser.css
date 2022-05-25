@@ -44,6 +44,7 @@
    text-align: center;
  }
 
+
 /*Ande sektion Sektion*/
   /*Layout for flex wrap*/
  .flex-container {
@@ -135,7 +136,40 @@
     border-radius: 18px;
     width: 30%;
     padding: 10px;
+    box-shadow: 0 3px 6px 0 #626469,0 3px 6px 0 #626469;
   }
+
+
+
+
+
+
+
+
+
+  .bord {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+  }
+  
+  .crossfd {
+    background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden1.svg);
+    display: inline-block;
+    background-size: 100%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
     /*Stile billeder*/
     .nyhed {
@@ -158,7 +192,10 @@
     border: solid #c1c1c1;;
     border-radius: 18px;
     padding: 10px;
+    box-shadow: 0 3px 6px 0 #626469,0 3px 6px 0 #626469;
   }
+
+
 
   /*Stile text - overskrift*/
   .over {
@@ -179,6 +216,7 @@
       width: 40%;
       border-radius: 40px;
     }
+
   }
 
   @media screen and (min-width: 768px) {
@@ -204,6 +242,9 @@
       }
       .tekstny {
         font-size: 15px;
+      }
+      .emoji {
+        font-size: 4rem;
       }
   }
 
@@ -237,6 +278,9 @@
        border-radius: 40px;
        padding-top: 15%;
     }
+    .emoji {
+      font-size: 6rem;
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -256,5 +300,8 @@
       width: 70%;
       border-radius: 40px;
       padding-top: 25%;
+    }
+    .emoji {
+      font-size: 8rem;
     }
   }
