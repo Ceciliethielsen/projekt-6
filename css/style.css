@@ -643,6 +643,7 @@ footer{
         position: relative;
     }
     .btn6{
+        flex-direction: column;
         width: 7rem;
     }
 
@@ -659,6 +660,7 @@ footer{
     }
 
     .btn2 img{
+        flex-direction: column;
         width: 20rem;
     }
 
@@ -667,10 +669,12 @@ footer{
     }
 
     .btn3 img{
+        flex-direction: column;
         width: 20rem;
     }
 
     .btn4 img{
+        flex-direction: column;
         width: 20rem;
     }
 
