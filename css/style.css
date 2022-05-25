@@ -639,7 +639,11 @@ footer{
         font-size: 1.4rem;
     }
 
+    .upper-btn{
+        position: relative;
+    }
     .btn6{
+        justify-content:space-between;
         width: 7rem;
     }
 
