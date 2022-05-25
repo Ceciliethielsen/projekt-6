@@ -470,6 +470,10 @@ footer{
         width: 14rem;
     }
 
+    .btn-text{
+        font-size: 1.0rem;
+    }
+
     /*Footer*/
     footer{
         height:22rem;
