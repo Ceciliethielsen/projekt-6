@@ -1,43 +1,51 @@
-const closedFace = document.querySelector(".closed");
-const openFace = document.querySelector(".open");
-
-closedFace.addEventListener("mouseover", () => { //mouseover kunne også være click //
-    if (openFace.classList.contains("open")) {
-        openFace.classList.add("active");
-        closedFace.classList.remove("active");
+function changeImagei() {
+    var image = document.getElementById('myImagei');
+    if (image.src.match("lysmedtekst.svg")) {
+        image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
-});
-
-openFace.addEventListener("mouseout", () => {  //mouseout kunne også være click //
-    if (closedFace.classList.contains("closed")) {
-        closedFace.classList.add("active");
-        openFace.classList.remove("active");
+    else {
+        image.src = "img/oplevwiser/lysmedtekst.svg";
     }
-});
+}
 
-
-
-const closedFaceEn = document.querySelector(".closedEn");
-const openFaceEn = document.querySelector(".openEn");
-
-closedFaceEn.addEventListener("click", () => { //mouseover kunne også være click //
-    if (openFaceEn.classList.contains("openEn")) {
-        openFaceEn.classList.add("activeEn");
-        closedFaceEn.classList.remove("activeEn");
+function changeImagea() {
+    var image = document.getElementById('myImagei');
+    if (image.src.match("vandogtekst.svg")) {
+        image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
-});
-
-openFaceEn.addEventListener("click", () => {  //mouseout kunne også være click //
-    if (closedFaceEn.classList.contains("closedEn")) {
-        closedFaceEn.classList.add("activeEn");
-        openFaceEn.classList.remove("activeEn");
+    else {
+        image.src = "img/oplevwiser/vandogtekst.svg";
     }
-});
+}
+
+function changeImageb() {
+    var image = document.getElementById('myImagei');
+    if (image.src.match("rogalarmmedtekstgtgt.svg")) {
+        image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
+    }
+    else {
+        image.src = "img/oplevwiser/rogalarmmedtekstgtgt.svg";
+    }
+}
+
+function changeImagec() {
+    var image = document.getElementById('myImagei');
+    if (image.src.match("sensorogtekst.svg")) {
+        image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
+    }
+    else {
+        image.src = "img/oplevwiser/sensorogtekst.svg";
+    }
+}
 
 
 
-const closedFaceTn = document.querySelector(".closedTn");
-const openFaceTn = document.querySelector(".openTn");
+
+
+
+
+let closedFaceTn = document.querySelector(".closedTn");
+let openFaceTn = document.querySelector(".openTn");
 
 closedFaceTn.addEventListener("click", () => { //mouseover kunne også være click //
     if (openFaceTn.classList.contains("openTn")) {
@@ -53,13 +61,54 @@ openFaceTn.addEventListener("click", () => {  //mouseout kunne også være click
     }
 });
 
+let closedFaceTi = document.querySelector(".closedTi");
+let openFaceTi = document.querySelector(".openTi");
 
-function changeImage() {
-    var image = document.getElementById('myImage');
-    if (image.src.match("simu2.png")) {
-        image.src = "img/oplevwiser/simu1.png";
+closedFaceTi.addEventListener("click", () => { //mouseover kunne også være click //
+    if (openFaceTi.classList.contains("openTi")) {
+        openFaceTi.classList.add("activeTi");
+        closedFaceTi.classList.remove("activeTi");
     }
-    else {
-        image.src = "img/oplevwiser/simu2.png";
+});
+
+openFaceTi.addEventListener("click", () => {  //mouseout kunne også være click //
+    if (closedFaceTi.classList.contains("closedTi")) {
+        closedFaceTi.classList.add("activeTi");
+        openFaceTi.classList.remove("activeTi");
     }
-}
+});
+
+let closedFaceTa = document.querySelector(".closedTa");
+let openFaceTa = document.querySelector(".openTa");
+
+closedFaceTa.addEventListener("click", () => { //mouseover kunne også være click //
+    if (openFaceTa.classList.contains("openTa")) {
+        openFaceTa.classList.add("activeTa");
+        closedFaceTa.classList.remove("activeTa");
+    }
+});
+
+openFaceTa.addEventListener("click", () => {  //mouseout kunne også være click //
+    if (closedFaceTa.classList.contains("closedTa")) {
+        closedFaceTa.classList.add("activeTa");
+        openFaceTa.classList.remove("activeTa");
+    }
+});
+
+
+let closedFaceTb = document.querySelector(".closedTb");
+let openFaceTb = document.querySelector(".openTb");
+
+closedFaceTb.addEventListener("click", () => { //mouseover kunne også være click //
+    if (openFaceTb.classList.contains("openTb")) {
+        openFaceTb.classList.add("activeTb");
+        closedFaceTb.classList.remove("activeTb");
+    }
+});
+
+openFaceTb.addEventListener("click", () => {  //mouseout kunne også være click //
+    if (closedFaceTb.classList.contains("closedTb")) {
+        closedFaceTb.classList.add("activeTb");
+        openFaceTb.classList.remove("activeTb");
+    }
+});
