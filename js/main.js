@@ -11,3 +11,6 @@
     overlay.classList.toggle("overlay");
   });
 //Cecilie JS slut
+
+//Kamilla JS start
+
