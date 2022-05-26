@@ -707,13 +707,24 @@ footer{
         flex-direction: row;
     }
 
+    .lowerbutton-1{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .lowerbutton-2{
+        display: flex;
+        flex-direction: column;
+    }
+
     .btn3 img{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 20rem;
     }
 
     .btn4 img{
+        flex-direction: column;
         width: 20rem;
     }
 
