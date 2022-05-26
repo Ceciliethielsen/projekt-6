@@ -1,8 +1,5 @@
 /*Main start*/
 
-.oplevover {
-  text-align: center;
-}
 /*Første Sektion Hero billede og tekst på hero*/
  .hero {
    width: 100%;
@@ -106,42 +103,39 @@
   width: 10px;
 }
 
+#gem {
+  display: none;
+}
+
 .emoji {
- 
   display: none;
 }
 
 .emoji1 {
-
+display: none;
 }
 
 .emoji2 {
-
 display: none;
 }
 
 .emoji3 {
-
 display: none;
 }
 
 #myImagei {
-
-   display: none;
-}
-
-.hov {
-
 display: none;
 }
 
 .hov {
+display: none;
+}
 
+.hov {
 display: none;
 }
 
 .hov:active {
-
 display: none;
 }
 
@@ -193,7 +187,6 @@ display: none;
 display: block;
 }
 
-
   /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
  /*Billeder i tredje sektion*/
  .img3 {
@@ -225,9 +218,9 @@ display: block;
     text-align: center;
     margin-top: 10px;
     font-size: 30px;
-    height: 70px;
+    height: 60px;
     margin-bottom: 30px;
-}
+  }
 
   /*Stile billede box*/
   .flex {
@@ -245,46 +238,34 @@ display: block;
       border-radius: 40px;
     }
 
-    .bord {
-      padding: 0;
-      margin: 0;
-      -webkit-box-sizing: border-box;
-    }
-    
     .crossfd {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden1.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 110%;
     }
 
     .crossfd1 {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden2.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 95%;
     }
 
     .crossfd2 {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden3.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 130%;
     }
 
     .crossfd3 {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden4.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 150%;
     }
 
     .crossfd4 {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden5.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 220%;
     }
 
     .crossfd5 {
       background: url(file:///C:/Users/sigru/OneDrive/Skrivebord/projekt-6/img/nyheden6.svg);
-      display: inline-block;
-      background-size: 100%;
+      background-size: 220%;
     }
 
     /*billeders funktion*/
@@ -317,6 +298,7 @@ display: block;
   .tekstny {
     font-size: 10px;
     color: black;
+    display: none;
   }
 
   @media screen and (min-width: 600px) {
@@ -331,7 +313,8 @@ display: block;
         width: 47%;
       }
       .flex-container1 > div {
-        height: 200px;
+        height: 150px;
+        width: 10%;
         margin-bottom: 50px;
       }
       .flex-container1 {
@@ -373,6 +356,12 @@ display: block;
         line-height: 1.1;
         width: 10px;
       } 
+      .tekstny {
+        display: block;
+      }
+      #gem {
+        display: block;
+      }
       .emoji {
         width: 10px;
         font-size: 0.07rem;
@@ -448,7 +437,8 @@ display: block;
        margin-right: 15%; 
      }
      .flex-container1 > div {
-       height: 130px;
+       height: 210px;
+       width: 20%;
      }
      .flex {
        border-radius: 40px;
@@ -500,7 +490,8 @@ display: block;
         width: 23%;
     }
     .flex-container1 > div {
-        height: 200px;
+        height: 300px;
+        width: 30%;
     }
     .over {
         font-size: 30px;
