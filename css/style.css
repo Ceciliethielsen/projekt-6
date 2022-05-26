@@ -660,6 +660,7 @@ footer{
         display: flex;
         flex-direction: column;
     }
+
     .btn6{
         flex-direction: column;
         width: 7rem;
