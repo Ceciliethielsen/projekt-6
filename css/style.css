@@ -842,8 +842,8 @@ footer{
     }
 
     #hejwiser{
-        margin-top:-10rem;
-        font-size: 1.4rem;
+        margin-top: -10rem;
+        font-size: 1.0rem;
     }
 
     .upper-btn2{
@@ -859,6 +859,8 @@ footer{
     .btn6 img{
         flex-direction: column;
         width: 8rem;
+
+
     }
 
     #middle-text{
