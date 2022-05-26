@@ -861,6 +861,7 @@ footer{
         height: 4rem;
         align-items: center;
     } 
+
     .btn6 img{  
         flex-direction: column;
         width: 4rem;
@@ -868,25 +869,26 @@ footer{
     }
 
     #middle-text{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     .middle-text-home{
         display:flex;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .bottom-container{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .btn2 img{
-        width: 20rem;
-        height: 20rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .rogalarm{
-        font-size: 0.8rem;
+        display: flex;
+        font-size: 0.7rem;
     }
 
     .btn-container{
@@ -907,20 +909,23 @@ footer{
     .btn3 img{
         display:flex;
         flex-direction: column;
-        width: 20rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .btn4 img{
         flex-direction: column;
-        width: 20rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .btn3 a figcaption {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .btn4 a figcaption {
-        font-size: 0.8rem;
+       
+        font-size: 0.7rem;
     }
 
     .lower-container{
