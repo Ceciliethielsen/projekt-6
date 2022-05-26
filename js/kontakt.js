@@ -9,9 +9,9 @@
     let besked = document.getElementById("besked");
     let error = document.getElementById("error");
 
-//Her bliver arrays'ne defineret i forbindelse med en variabel/i en variabel
+//Her bliver arrays'ne defineret 
     let borderColors = ["2px solid red", "1px solid green"];
-    let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefon, emne og besked mangler", "Telefon, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
+    let errorMessages = ["Udfyld venligst alle oplysninger", "Mail, telefonnummer, emne og besked mangler", "Telefonnummer, emne og besked mangler", "Emne og besked mangler", "Besked mangler", "Din besked er sendt"];
     let colors = ["red", "black"];
 
 //Sørger for, at koden først bliver læst, når der trykkes på knappen "send"
