@@ -512,7 +512,6 @@ footer{
         font-size: 1.0rem;
     }
     
-
     .btn-text a{
         font-size: 1.0rem;
     }
@@ -751,6 +750,14 @@ footer{
     .btn4 img{
         flex-direction: column;
         width: 20rem;
+    }
+
+    .btn3 a figcaption {
+        font-size: 0.8rem;
+    }
+
+    .btn4 a figcaption {
+        font-size: 0.8rem;
     }
 
     .lower-container{
