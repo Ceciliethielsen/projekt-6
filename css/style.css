@@ -730,7 +730,13 @@ footer{
         width: 20rem;
     }
 
+    .lower-container{
+        flex-direction: column;
+    }
+
     .btn-text a{
+        display: flex;
+        flex-direction: column;
         font-size: 0.8rem;
     }
 
