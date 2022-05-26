@@ -718,7 +718,7 @@ footer{
     }
 
     .btn2 img{
-        width: 20rem;
+        width: 28rem;
         height: 20rem;
     }
 
@@ -744,12 +744,12 @@ footer{
     .btn3 img{
         display:flex;
         flex-direction: column;
-        width: 20rem;
+        width: 28rem;
     }
 
     .btn4 img{
         flex-direction: column;
-        width: 20rem;
+        width: 28rem;
     }
 
     .btn3 a figcaption {
@@ -757,6 +757,7 @@ footer{
     }
 
     .btn4 a figcaption {
+        padding-top: 0.8rem;
         font-size: 0.8rem;
     }
 
@@ -771,7 +772,7 @@ footer{
     }
 
     .findelektriker img{
-        width: 30rem;
+        width: 28rem;
     }
 
     /*Footer*/
@@ -925,6 +926,7 @@ footer{
     }
 
     .btn4 a figcaption {
+        padding-top: 0.8rem;
         font-size: 0.7rem;
     }
 
@@ -939,7 +941,8 @@ footer{
     }
 
     .findelektriker img{
-        width: 30rem;
+        width: 20rem;
+        height: 10rem;
     }
 
     /*Footer*/
