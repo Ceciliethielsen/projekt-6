@@ -664,7 +664,6 @@ footer{
     .btn6 img{
         flex-direction: column;
         width: 8rem;
-
     }
 
     #middle-text{
@@ -672,6 +671,7 @@ footer{
     }
 
     .middle-text-home{
+        display:flex;
         font-size: 0.8rem;
     }
 
