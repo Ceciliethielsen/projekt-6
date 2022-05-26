@@ -303,6 +303,10 @@ h3{
     justify-content: center;
 }
 
+.btn-text{
+    display: flex;
+    position: relative;
+}
 .btn-text a{
   justify-content: space-between;
   color:#3DCD58;
