@@ -128,6 +128,10 @@ h3{
     margin: 0;
   }
 
+  .smoke{
+      width:100%;
+      height:400px;
+  }
   .carouselSlides{
     position:relative;
     height:20rem;
