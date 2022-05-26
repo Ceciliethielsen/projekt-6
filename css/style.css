@@ -913,8 +913,9 @@ footer{
     }
 
     .upper-container{
-        margin-left: -1rem;
+       margin-left: -1rem;
     }
+
     .upper-btn2{
         display:flex;
         flex-direction: column;
