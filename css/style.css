@@ -203,7 +203,7 @@ h3{
 }
 
 .smallpics1{
-    width:10rem;
+    width:80%;
     height:130px;
 }
 
@@ -506,8 +506,23 @@ footer{
         font-size: 2.0rem;
     }
 
+    .upper-btn1{
+        padding-left: 3rem;
+    }
+    .smallpics{
+        width:8rem;
+        height: 120px;
+    }
+    
+    .smallpics1{
+        width:80%;
+        height:120px;
+        justify-content: center;
+    }
+
     .btn6{
         width: 9rem;
+        align-items: center;
     }
 
     #middle-text{
@@ -731,6 +746,17 @@ footer{
     .upper-btn1{
         display: flex;
         flex-direction: column;
+        margin-left: 11rem;
+    }
+    
+    .smallpics{
+        width:8rem;
+        height: 120px;
+    }
+    
+    .smallpics1{
+        width:80%;
+        height:120px;
     }
 
     .btn6 img{
