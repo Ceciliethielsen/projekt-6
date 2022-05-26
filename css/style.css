@@ -837,11 +837,12 @@ footer{
 
     /*main*/
     .carouselSlides img{
-        height: 12rem;
+        height: 10rem;
         width:100%;
     }
 
     #hejwiser{
+        margin-top:-10rem;
         font-size: 1.4rem;
     }
 
