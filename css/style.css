@@ -167,7 +167,9 @@ h3{
     justify-content: center;
 }
 
-.upper-btn{
+.upper-btn1{
+    display: flex;
+    flex-direction: row;
    padding-top: 4rem;
    font-size: 2rem;
 }
@@ -638,7 +640,7 @@ footer{
     #hejwiser{
         font-size: 1.4rem;
     }
-    
+
     .upper-btn{
         display:flex;
         flex-direction: column;
