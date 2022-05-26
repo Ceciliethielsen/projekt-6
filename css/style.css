@@ -266,20 +266,13 @@ h3{
     flex-direction: row;
     border:none;
     background-color: white;
+    text-decoration: none;
 }
 
-.btn-text p{
-    justify-content: end;
-}
 .btn3 img{
     border-radius: 2rem;
     width: 27.5rem;
-}
-
-.btn3-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-decoration: none;
 }
 
 .lowerbutton-2{
