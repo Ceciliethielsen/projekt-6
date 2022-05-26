@@ -198,12 +198,12 @@ h3{
 }
 
 .smallpics{
-    width:100%;
+    width:10rem;
     height: 130px;
 }
 
 .smallpics1{
-    width:80%;
+    width:10rem;
     height:130px;
 }
 
@@ -360,6 +360,11 @@ h3{
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+}
+
+.bookelectrian{
+    width: 44rem;
+    height:250px;
 }
 
 .findelektriker button{
