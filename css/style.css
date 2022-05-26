@@ -275,12 +275,15 @@ h3{
     text-decoration: none;
 }
 
+.btn3 a{
+    text-decoration: none;
+}
+
 .btn3 a figcaption{
     color: #3DCD58;
     text-decoration: none;
-    
-    
-   
+
+
 }
 
 .lowerbutton-2{
