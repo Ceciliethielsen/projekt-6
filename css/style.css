@@ -738,6 +738,9 @@ footer{
         font-size: 1.4rem;
     }
 
+    .upper-container{
+        margin-left: -1rem;
+    }
     .upper-btn2{
         display:flex;
         flex-direction: column;
