@@ -681,10 +681,16 @@ footer{
 
     .btn2 img{
         width: 20rem;
+        height: 20rem;
     }
 
     .rogalarm{
         font-size: 0.8rem;
+    }
+
+    .btn-container{
+        display:flex;
+        flex-direction: row;
     }
 
     .btn3 img{
