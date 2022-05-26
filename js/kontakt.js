@@ -17,7 +17,7 @@
 //Sørger for, at koden først bliver læst, når der trykkes på knappen "send"
     function check(){
         //Herunder er kontrolstruktur - if else
-        //if-statements eksekverer en kode, afhængig af betingelsen - hvis if-statementet ikke lever op til betingelsen (hvis det ikke er sandt), går den videre til else if - dette gøres ved hjælp af boolske operatorer (== lig med, != Ikke lig med)
+        //if-statements eksekverer en kode, afhængig af betingelsen - hvis if statement er lig med 0 (hvis de ikke er udfyldt), udskriver den koden under går den videre til else if - dette gøres ved hjælp af boolske operatorer (== lig med, != Ikke lig med)
         if(navn.value.length ==0 && mail.value.length ==0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
             //følgende kalder på arrayet ovenover - herunder henter den 0-værdi'en
             navn.style.border = borderColors[0];
@@ -32,39 +32,23 @@
         else if (navn.value.length !=0 && mail.value.length ==0 && tlf.value.length==0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[1];
             error.style.color = colors[0];
-            navn.style.border = borderColors[1];
-            mail.style.border = borderColors[0];
-            tlf.style.border = borderColors[0];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
+            
         }
 
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length ==0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[2];
             error.style.color = colors[0];
-            navn.style.border = borderColors[1];
-            mail.style.border = borderColors[1];
-            tlf.style.border = borderColors[0];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
+           
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length ==0 && besked.value.length ==0){
             error.innerHTML = errorMessages[3];
             error.style.color = colors[0];
-            navn.style.border = borderColors[1];
-            mail.style.border = borderColors[1];
-            tlf.style.border = borderColors[1];
-            emne.style.border = borderColors[0];
-            besked.style.border = borderColors[0];
+            
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length !=0 && besked.value.length ==0){
             error.innerHTML = errorMessages[4];
             error.style.color = colors[0];
-            navn.style.border = borderColors[1];
-            mail.style.border = borderColors[1];
-            tlf.style.border = borderColors[1];
-            emne.style.border = borderColors[1];
-            besked.style.border = borderColors[0];
+          
         }
         else if(navn.value.length !=0 && mail.value.length !=0 && tlf.value.length !=0 && emne.value.length !=0 && besked.value.length == true){
             error.innerHTML = errorMessages[5];
@@ -83,6 +67,7 @@
     }
     //Herunder er også kontrolstruktur - loop
     //for-loop som fortæller, at i = 0. Det betyder, at så længe i er mindre end array'et "errorMessages", så vil loopet altid blive plusset med 1 - i++
+    //Den vil derfor console-log med errorMessage [i], afhængig af, hvad der er udfyldt, og så +1 - kører igen og igen (loop)
     for (i = 0; i < errorMessages.length; i++){
         console.log(errorMessages[i])
     }
@@ -92,7 +77,7 @@
         console.log("no-reload")
         event.preventDefault();
     }
-    //Event som sender beskeden
+    //Event som sender beskeden via knappen, som har type "submit"
     form.addEventListener('submit', handleform);
 //Cecilies JS slut
 
