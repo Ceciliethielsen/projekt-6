@@ -750,7 +750,7 @@ footer{
     }
     
     .smallpics{
-        width:8rem;
+        width:6em;
         height: 120px;
     }
     
@@ -915,6 +915,18 @@ footer{
     .upper-btn1{
         display: flex;
         flex-direction: column;
+        margin-left: 4rem;
+    }
+    
+    .smallpics{
+        width:8rem;
+        height: 120px;
+    }
+    
+    .smallpics1{
+        width:80%;
+        height:120px;
+        justify-content: center;
     }
 
     .btn6{
@@ -935,7 +947,7 @@ footer{
 
     .middle-text-home{
         display:flex;
-        font-size: 0.6rem;
+        font-size: 0.45rem;
     }
 
     .bottom-container{
