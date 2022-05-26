@@ -250,11 +250,13 @@ h3{
 
 .btn-container{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .btn3{
     display:flex;
+    flex-direction: row;
     border:none;
     background-color: white;
 }
