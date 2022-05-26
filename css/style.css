@@ -738,16 +738,15 @@ footer{
         font-size: 1.4rem;
     }
 
-    .upper-container{
-        margin-left: 10rem;
-    }
     .upper-btn2{
         display:flex;
+        justify-content: center;
         flex-direction: column;
     }
 
     .upper-btn1{
         display: flex;
+        justify-content: center;
         flex-direction: column;
     }
     
