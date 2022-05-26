@@ -247,6 +247,11 @@ h3{
     background-color: white;
 }
 
+.roegalarm{
+    width: 44rem;
+    height:220px;
+}
+
 .btn2 img{
     display: flex;
     border: 0.3rem solid white;
