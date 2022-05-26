@@ -1,9 +1,6 @@
 // Baggrundsbilleder til simulatoren:
-
-let image = document.getElementById('myImagei');
-
 function changeImagei() {
-
+    const image = document.getElementById('myImagei');
     if (image.src.match("lysmedtekst.svg")) {
         image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
@@ -13,7 +10,7 @@ function changeImagei() {
 }
 
 function changeImagea() {
-
+    const image = document.getElementById('myImagei');
     if (image.src.match("vandogtekst.svg")) {
         image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
@@ -23,7 +20,7 @@ function changeImagea() {
 }
 
 function changeImageb() {
-
+    const image = document.getElementById('myImagei');
     if (image.src.match("rogalarmmedtekstgtgt.svg")) {
         image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
@@ -33,7 +30,7 @@ function changeImageb() {
 }
 
 function changeImagec() {
-
+    const image = document.getElementById('myImagei');
     if (image.src.match("sensorogtekst.svg")) {
         image.src = "img/oplevwiser/forsidemedtekstgtgt.svg";
     }
@@ -115,7 +112,7 @@ openTb.addEventListener("click", () => {  //mouseout kunne også være click //
     }
 });
 
-// Dette er et loop, kaldet FOR IN loop overskriften til produktkataloget:
+//loop, overskriften til produktkataloget:
 const overskriftProdukter = {virksomhed:"Lauritz Knudsen", Schneider:"By Schneider Elektric -", produktserie:"Wiser-SmartHome"}; 
 
 let vilSe = "<b>";
@@ -150,7 +147,7 @@ document.getElementById("over7").innerHTML =
 overSkrifter[6] + " ";
 
 
-// Denne kode beskrives som FOR loop, indeholder vores produktliste:
+// loop, indeholder vores produktliste:
 const produkter = ["Lysstyring", "Røgalarm", "Vand sensor", "Dør Sensor", "Vindues sensor", "Stikkontakter"];
 
 let text = "";
@@ -168,7 +165,7 @@ if (aabent > 16) {
   oplysOmAabent = "Buttiken er desværre lukket nu, men support sidder klar med at hjælpe til kl 20.00";
 }
 else if (aabent > 09) {
-    oplysOmAabent = "Hej og velkommen til Wiser Smart Home produktseries hjemmeside, <br> hvis du har brug for hjælp er du velkommen til at henvende dig i butikken eller kontakte support" 
+    oplysOmAabent = "Hej og velkommen til Wiser Smart Home produktseries hjemmeside, <br> hvis du har brug for hjælp er du velkommen til at henvende dig i butikken eller kontakte support"; 
 }
 else {
   oplysOmAabent = "Vi er desværre lukket og det vil først være muligt at komme i kontakt i morgen kl 09.";
