@@ -856,10 +856,14 @@ footer{
         flex-direction: column;
     }
 
+    .btn6{
+        width:5rem;
+        align-items: center;
+    } 
     .btn6 img{  
         flex-direction: column;
         width: 4rem;
-        height: 3rem;
+       height: 3rem;
     }
 
     #middle-text{
