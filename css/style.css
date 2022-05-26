@@ -914,6 +914,7 @@ footer{
     }
 
     .btn4 img{
+        margin-top: -1.5rem;
         flex-direction: column;
         width: 10rem;
         height: 10rem;
@@ -924,7 +925,6 @@ footer{
     }
 
     .btn4 a figcaption {
-       
         font-size: 0.7rem;
     }
 
