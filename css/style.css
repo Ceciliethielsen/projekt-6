@@ -834,6 +834,105 @@ footer{
         padding-top: 3rem;
         margin-left: -0.5rem;
     }
+
+    /*main*/
+    .carouselSlides img{
+        height: 12rem;
+        width:100%;
+    }
+
+    #hejwiser{
+        font-size: 1.4rem;
+    }
+
+    .upper-btn2{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .upper-btn1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn6 img{
+        flex-direction: column;
+        width: 8rem;
+    }
+
+    #middle-text{
+        font-size: 1.2rem;
+    }
+
+    .middle-text-home{
+        display:flex;
+        font-size: 0.8rem;
+    }
+
+    .bottom-container{
+        font-size: 1rem;
+    }
+
+    .btn2 img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .rogalarm{
+        font-size: 0.8rem;
+    }
+
+    .btn-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .lowerbutton-1{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .lowerbutton-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn3 img{
+        display:flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .btn4 img{
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    .btn3 a figcaption {
+        font-size: 0.8rem;
+    }
+
+    .btn4 a figcaption {
+        font-size: 0.8rem;
+    }
+
+    .lower-container{
+        flex-direction: column;
+    }
+
+    .btn-text a{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
+    .findelektriker img{
+        width: 30rem;
+    }
+
+
+
+
     /*Footer*/
     footer{
         height:18rem;
