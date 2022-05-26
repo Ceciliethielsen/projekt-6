@@ -661,9 +661,10 @@ footer{
         flex-direction: column;
     }
 
-    .btn6{
+    .btn6 img{
         flex-direction: column;
-        width: 7rem;
+        width: 8rem;
+
     }
 
     #middle-text{
