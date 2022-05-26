@@ -37,7 +37,7 @@ function showSlides() {
 const hour = new Date().getHours();
 let greeting;
 
-if (hour < 8){
+if (hour < 12){
     greeting = "Godmorgen, velkommen til Wiser";
 }
 else if (hour < 14){
