@@ -36,4 +36,12 @@ else {
     greeting = "Godaften, velkommen til Wiser";
 }
 document.getElementById("hejwiser").innerHTML = greeting;
+
+let array = ["Det er nemt at få el-installationer optimeret i dit hjem.", "Hvad end du bor i hus eller i lejlighed,bygger nyt eller om", "<br>", "så tilbyder vi masser af muligheder og løsninger, der skaber mere smarte og bæredygtige hjem.", "<br>", "Det gør både din hverdag nemmere og vores allesammens verden grønnere"]
+function printArray(){
+    let p = document.getElementById('middletexthome');
+
+    for (i = 0; i < array.length; i++)
+    p.innerHTML += array[i];
+}
 //Kamilla JS slut

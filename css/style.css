@@ -221,7 +221,7 @@ h3{
     color: #3DCD58;
 }
 
-.middle-text-home{
+#middletexthome{
    text-align: center;
    font-size: 1rem;
    color:#717171;
@@ -529,7 +529,7 @@ footer{
         font-size: 1.9rem;
     }
 
-    .middle-text-home{
+    #middletexthome{
         font-size: 0.8rem;
     }
 
@@ -773,7 +773,7 @@ footer{
         font-size: 1.2rem;
     }
 
-    .middle-text-home{
+    #middletexthome{
         display:flex;
         font-size: 0.8rem;
     }
