@@ -151,7 +151,7 @@ overSkrifter[6] + " ";
 
 
 // Denne kode beskrives som FOR loop, indeholder vores produktliste:
-const produkter = ["Lysstyring", "Røgalarm", "Vand sensor", "Dør Sensor", "Vindues sensor", "Stikkontakter", "Heste"];
+const produkter = ["Lysstyring", "Røgalarm", "Vand sensor", "Dør Sensor", "Vindues sensor", "Stikkontakter"];
 
 let text = "";
 for (let i = 0; i < produkter.length; i++) {
