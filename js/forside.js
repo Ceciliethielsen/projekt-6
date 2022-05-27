@@ -44,4 +44,8 @@ function printArray(){
     for (i = 0; i < array.length; i++)
     p.innerHTML += array[i];
 }
+
+document.getElementById("middle-text").addEventListener("click", function(){
+  alert("Dette er desværre ikke en knap, rul længere ned ad siden og læs mere");
+});
 //Kamilla JS slut
