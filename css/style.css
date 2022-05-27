@@ -914,6 +914,7 @@ footer{
 
     .upper-container{
        margin-left: -1rem;
+       position: relative;
     }
 
     .upper-btn2{
