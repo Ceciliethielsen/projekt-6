@@ -6,14 +6,12 @@ showSlides();
 function showSlides() {
   let x;
   let slides = document.getElementsByClassName("carouselSlides");
-  let dots = document.getElementsByClassName("prik");
   for (x = 0; x < slides.length; x++) {
     slides[x].style.display = "none";  
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
-  for (x = 0; x < dots.length; x++) 
-
+ 
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 4000);
 }
