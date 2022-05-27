@@ -1,5 +1,4 @@
 /*Main start*/
-
 /*Første Sektion Hero billede og tekst på hero*/
  .hero {
    width: 100%;
@@ -103,6 +102,7 @@
   width: 10px;
 }
 
+/*simulator gemmes*/
 #gem {
   display: none;
 }
@@ -112,79 +112,79 @@
 }
 
 .emoji1 {
-display: none;
+  display: none;
 }
 
 .emoji2 {
-display: none;
+  display: none;
 }
 
 .emoji3 {
-display: none;
+  display: none;
 }
 
 #myImagei {
-display: none;
+  display: none;
 }
 
 .hov {
-display: none;
+  display: none;
 }
 
 .hov {
-display: none;
+  display: none;
 }
 
 .hov:active {
-display: none;
+  display: none;
 }
 
 .closedTn {
-display: none;
+  display: none;
 }
 
 .openTn {
-display: none;
+  display: none;
 }
 
 .activeTn {
-display: block;
+  display: block;
 }
 
 .closedTi {
-display: none;
+  display: none;
 }
 
 .openTi {
-display: none;
+  display: none;
 }
 
 .activeTi {
-display: block;
+  display: block;
 }
 
 .closedTa {
-display: none;
+  display: none;
 }
 
 .openTa {
-display: none;
+  display: none;
 }
 
 .activeTa {
-display: block;
+  display: block;
 }
 
 .closedTb {
-display: none;
+  display: none;
 }
 
 .openTb {
-display: none;
+  display: none;
 }
 
 .activeTb {
-display: block;
+  display: block;
 }
 
   /*Layout for flex wrap knapper til simulator - samme layout som sektion 2, nyt class til billede, grundet størrelse ændres*/
@@ -301,8 +301,10 @@ display: block;
     display: none;
   }
 
+  /*mediaqueris, så hjemmesiden er resposiv*/
+
   @media screen and (min-width: 600px) {
-    .nyhed {
+   .nyhed {
       width: 40%;
       border-radius: 40px;
     }
@@ -339,13 +341,10 @@ display: block;
       }
       .stile {
         width: 30px;
-
       }
-      
       .container5 {
         position: relative;
       }
-      /*Tekst på billeder*/
       .bottom-left5 {
         position: absolute;
         bottom: 25px;
@@ -395,7 +394,6 @@ display: block;
       margin-left: 72%;
       display: block;
       }
-      
       #myImagei {
          width: 200%;
          height: auto;
@@ -406,23 +404,17 @@ display: block;
         border-radius: 100%;
         width: 40px;
         height: 40px;
-        
         display: block;
-        }
-        
-        .hov {
+      }
+      .hov {
         box-shadow: 0 2px 6px 0 #626469,0 5px 15px 0 #626469;
         display: block;
-
-        }
-        
-        .hov:active {
+      }
+      .hov:active {
         transform: translateY(10px);
         display: block;
-        }
       }
-
-
+    }
 
   @media screen and (min-width: 1024px) {
     .flex-container > div {
@@ -454,14 +446,14 @@ display: block;
        width: 60%;
        border-radius: 40px;
        padding-top: 15%;
-    }
-    #myImagei {
+     }
+     #myImagei {
       width: 300%;
       height: auto;
-    }
-    .stile {
+     }
+     .stile {
       width: 45px;
-    }
+     }
     .hov {
       width: 55px;
       height: 55px;
@@ -482,8 +474,7 @@ display: block;
     margin-bottom: 47%;
     margin-left: 139%;
     }
-    }
-
+  }
 
   @media screen and (min-width: 1440px) {
     .flex-container > div {
@@ -531,5 +522,5 @@ display: block;
     margin-bottom: 52%;
     margin-left: 195%;
     }
-    }
+  }
   

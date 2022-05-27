@@ -1,3 +1,6 @@
+// Sigrun Mouritsen JS til oplev-wiser-smarthome.html:
+// Jeg har bygget en simulator ud fra en ide, om billeder på billeder, derfor er den lavet på denne måde:
+
 // Baggrundsbilleder til simulatoren:
 function changeImagei() {
     const image = document.getElementById('myImagei');
@@ -112,60 +115,60 @@ openTb.addEventListener("click", () => {  //mouseout kunne også være click //
     }
 });
 
-//loop, overskriften til produktkataloget:
+const eksempelSomBeskriver = 
+{virksomhed1:"Lauritz Knudsen", 
+Virksomhed2:"En anden1", 
+virksomhed3:"En anden2", 
+produktserie1:1, 
+produktsere2:2, 
+produktseri3: "Wiser-Smart-Home"};
+
+document.getElementById("eksempel").innerHTML = 
+eksempelSomBeskriver.virksomhed1 + " By Schneider Electric " + eksempelSomBeskriver.produktseri3;
+
+// for loop af array, indeholder vores produktliste:
+const produkter = ["Lysstyring", "Røgalarm", "Vindue og dørsensor", "vand Sensor"];
+
+let text = "";
+for (let i = 0; i < produkter.length; i++) {
+  text += produkter[i] + " - ";
+}
+
+document.getElementById("produktliste").innerHTML = text;
+
+// overskriften til produktkataloget:
 const overskriftProdukter = {virksomhed:"Lauritz Knudsen", Schneider:"By Schneider Elektric -", produktserie:"Wiser-SmartHome"}; 
 
 let vilSe = "<b>";
 for (let x in overskriftProdukter) {
   vilSe += overskriftProdukter[x] + " ";
 }
+
 document.getElementById("tilbyder").innerHTML = vilSe;
 
 // array overskrifterne i tekstbokse:
-const overSkrifter = [];
-overSkrifter[0] = "Wiser Smart-Home APP";
-overSkrifter[1] = "Wiser Røgalarm";
-overSkrifter[2] = "Kontakt Wiser Elektrikker"; 
-overSkrifter[3] = "Wiser Smart-Home hele pakken";
-overSkrifter[4] = "Bliv smart med Wiser og spar husstands CO2-aftryk";
-overSkrifter[5] = "Der er penge at spare med Wiser"; 
-overSkrifter[6] = "Produkter";
+const overSkrifter = ["Wiser Smart-Home APP", "Wiser Smart-Home røgalarm", "Kontakt Wiser Elektrikker", "Wiser Smart-Home hele pakken", "Bliv smart med Wiser og spar husstands CO2-aftryk", "Der er penge at spare med Wiser", "Produkter"];
 
-document.getElementById("over1").innerHTML =
-overSkrifter[0] + " ";
-document.getElementById("over2").innerHTML =
-overSkrifter[1] + " ";
-document.getElementById("over3").innerHTML =
-overSkrifter[2] + " ";
-document.getElementById("over4").innerHTML =
-overSkrifter[3] + " ";
-document.getElementById("over5").innerHTML =
-overSkrifter[4] + " ";
-document.getElementById("over6").innerHTML =
-overSkrifter[5] + " ";
-document.getElementById("over7").innerHTML =
-overSkrifter[6] + " ";
-
-
-// loop, indeholder vores produktliste:
-const produkter = ["Lysstyring", "Røgalarm", "Vand sensor", "Dør Sensor", "Vindues sensor", "Stikkontakter"];
-
-let text = "";
-for (let i = 0; i < produkter.length; i++) {
-  text += produkter[i] + " ";
-}
-
-document.getElementById("produktliste").innerHTML = text;
+document.getElementById("over1").innerHTML = overSkrifter[0];
+document.getElementById("over2").innerHTML =overSkrifter[1];
+document.getElementById("over3").innerHTML =overSkrifter[2];
+document.getElementById("over4").innerHTML = overSkrifter[3];
+document.getElementById("over5").innerHTML = overSkrifter[4];
+document.getElementById("over6").innerHTML = overSkrifter[5];
+document.getElementById("over7").innerHTML = overSkrifter[6];
 
 // Beskrivelse omking åbningstider i bunden af siden:
 const aabent = new Date().getHours(); 
 let oplysOmAabent;
 
-if (aabent > 16) {
-  oplysOmAabent = "Buttiken er desværre lukket nu, men support sidder klar med at hjælpe til kl 20.00";
+if (aabent > 09) {
+  oplysOmAabent = "Hej og velkommen til Wiser Smart Home produktseries hjemmeside, <br> hvis du har brug for hjælp er du velkommen til at henvende dig i butikken eller kontakte support"; 
 }
-else if (aabent > 09) {
-    oplysOmAabent = "Hej og velkommen til Wiser Smart Home produktseries hjemmeside, <br> hvis du har brug for hjælp er du velkommen til at henvende dig i butikken eller kontakte support"; 
+else if (aabent > 16) {
+    oplysOmAabent = "Buttiken er desværre lukket nu, men support sidder klar med at hjælpe til kl 20.00"; 
+}
+else if (aabent > 20) {
+    oplysOmAabent = "Vi er desværre lukket og det vil først være muligt at komme i kontakt i morgen kl 09.";
 }
 else {
   oplysOmAabent = "Vi er desværre lukket og det vil først være muligt at komme i kontakt i morgen kl 09.";
@@ -175,6 +178,7 @@ document.getElementById("aabent").innerHTML = oplysOmAabent;
 
 // Stiling af nogle af de elementer skrevet i JS:
 const stileElementer = document.querySelectorAll(".stilingen");
+
 for (let i = 0; i < stileElementer.length; i++) {
   stileElementer[i].style.color = "#3DCD58";
   stileElementer[i].style.fontSize = "20px";
@@ -182,10 +186,10 @@ for (let i = 0; i < stileElementer.length; i++) {
   stileElementer[i].style.textAlign = "center";
   stileElementer[i].style.marginBottom = "1px";
   stileElementer[i].style.marginTop = "1px";
-
 }
 
 const stileElementerOver = document.querySelectorAll(".stilingenover");
+
 for (let i = 0; i < stileElementerOver.length; i++) {
   stileElementerOver[i].style.color = "#3DCD58";
   stileElementerOver[i].style.fontSize = "50px";
