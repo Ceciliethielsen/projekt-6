@@ -12,9 +12,8 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
-  for (x = 0; x < dots.length; x++) {
-    dots[x].className = dots[x].className.replace(" active", "");
-  }
+  for (x = 0; x < dots.length; x++) 
+
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 4000);
 }
