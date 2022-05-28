@@ -181,7 +181,7 @@ const stileElementer = document.querySelectorAll(".stilingen");
 
 for (let i = 0; i < stileElementer.length; i++) {
   stileElementer[i].style.color = "#3DCD58";
-  stileElementer[i].style.fontSize = "30px";
+  stileElementer[i].style.fontSize = "20px";
   stileElementer[i].style.fontWeight = "bold";
   stileElementer[i].style.textAlign = "center";
   stileElementer[i].style.marginBottom = "1px";
