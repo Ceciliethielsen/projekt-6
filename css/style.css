@@ -26,7 +26,7 @@ h3{
 }
 .logo{
     width: 15rem;
-    height: 7,5rem;
+    height: 7.5rem;
     cursor: pointer;
 }
 #erhverv{
@@ -51,18 +51,17 @@ h3{
 }
   
 #menu a{
-    float: center;
     font-size: 1.5rem;
     padding: 14px 16px;
     text-decoration: none;
     color: black;
 }
+
 #menu a.active{
     color: #009530;
 }
   
 .dropdown{
-    float: center;
     overflow: hidden;
 }
   
@@ -282,7 +281,7 @@ h3{
 .lowerbutton-1{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -311,7 +310,7 @@ h3{
 
 .lowerbutton-2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -421,7 +420,7 @@ footer{
     text-align: center;
     padding-left: 0rem;
     font-size: 1rem;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .footer ul li a{
@@ -464,7 +463,7 @@ footer{
     text-align: center;
 }
 
-.nyhedsbrev{
+.nyhedsbrev {
     color:#707070;
     text-decoration: none;
     text-align: center;
@@ -472,8 +471,7 @@ footer{
     font-size: 1rem;
 }
 
-.tilmeld{
-    display:flex-end;
+.tilmeld {
     color:black;
     background-color: #3fa7d3;
     border:none;
