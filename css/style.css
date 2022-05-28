@@ -166,6 +166,8 @@ h3{
     font-size: 2.5rem;
 }
 
+.pointer {cursor: pointer;}
+
 .upper-container{
     display: flex;
     flex-direction: row;
