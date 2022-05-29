@@ -55,6 +55,7 @@ h3{
     padding: 14px 16px;
     text-decoration: none;
     color: black;
+    font-family: arial;
 }
 
 #menu a.active{
