@@ -25,8 +25,8 @@ h3{
     justify-content: space-between;
 }
 .logo{
-    width: 15rem;
-    height: 7.5rem;
+    width: 20rem;
+    height: 8rem;
     cursor: pointer;
 }
 #erhverv{
@@ -623,8 +623,8 @@ footer{
     }
     /*header inklusiv burgermenu*/
     .logo{
-        width: 10rem;
-        height: 5rem;
+        width: 15rem;
+        height: 7rem;
     }
     #buttons{
         display: none;
@@ -887,8 +887,8 @@ footer{
 @media (max-width: 480px){
     /*header inklusiv burgermenu*/
     .logo{
-        width: 8rem;
-        height: 4rem;
+        width: 10rem;
+        height: 4.5rem;
     }
     .dropdown{
         padding-top: 2rem;
