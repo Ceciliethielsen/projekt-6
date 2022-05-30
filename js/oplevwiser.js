@@ -117,14 +117,14 @@ openTb.addEventListener("click", () => {  //mouseout kunne også være click //
 
 const eksempelSomBeskriver = 
 {virksomhed1:"Lauritz Knudsen", 
-Virksomhed2:"En anden1", 
+virksomhed2:"En anden1", 
 virksomhed3:"En anden2", 
 produktserie1:1, 
 produktsere2:2, 
-produktseri3: "Wiser-Smart-Home"};
+produktseri3:"Wiser-Smart-Home"};
 
 document.getElementById("eksempel").innerHTML = 
-eksempelSomBeskriver.virksomhed1 + " By Schneider Electric " + eksempelSomBeskriver.produktseri3;
+eksempelSomBeskriver.virksomhed1 + " By Schneider Electric " + 25 + eksempelSomBeskriver.produktserie1 + " " + eksempelSomBeskriver.produktseri3 + eksempelSomBeskriver.produktseri3;
 
 // for loop af array, indeholder vores produktliste:
 const produkter = ["Lysstyring", "Røgalarm", "Vindue og dørsensor", "vand Sensor"];
